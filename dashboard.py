@@ -19,7 +19,7 @@ import streamlit as st
 from config import DATA_DIR, ANALYZED_DIR, PARADIGM_DIR, POLICY_DIR, DOMESTIC_DIR
 
 # V1 / V2 버전 구분
-_DASH_VER   = os.getenv("IRAN_DASH_VERSION", "V1")
+_DASH_VER   = os.getenv("IRAN_DASH_VERSION", "V2")
 _IS_V2      = _DASH_VER == "V2"
 _VER_LABEL  = "V2" if _IS_V2 else "V1"
 
