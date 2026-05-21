@@ -33,12 +33,24 @@ NAVER_QUERIES = [
 ]
 
 YOUTUBE_QUERIES = [
-    "장바구니 물가 마트 요즘 생활",
-    "휘발유 기름값 주유소 요즘",
-    "배달비 올랐다 자영업 소상공인",
-    "전기요금 도시가스 인상 가계",
-    "이란 전쟁 유가 민생 영향",
-    "중동 전쟁 우리 생활 영향",
+    # 민생 생활
+    "장바구니 물가 요즘 너무 올랐다",
+    "휘발유 기름값 주유소 비싸다",
+    "배달비 올랐다 자영업 힘들다",
+    "전기요금 도시가스 인상 가계부담",
+    "물가 상승 서민 생활 힘들다",
+    "외식비 마트 식료품 가격",
+    "소상공인 자영업 요즘 장사",
+    # 미이란 전쟁
+    "이란 미국 전쟁 한국 영향",
+    "이란 전쟁 유가 물가",
+    "미국 이란 협상 결과",
+    "이란 핵 전쟁 위기",
+    # 중동 전쟁
+    "중동 전쟁 한국 경제 영향",
+    "중동 유가 상승 서민",
+    "호르무즈 봉쇄 유가 한국",
+    "중동 전쟁 민생 타격",
 ]
 
 # ── 전쟁/이란 관련 키워드 (전쟁 댓글도 포함) ────────────
@@ -267,7 +279,7 @@ def collect_youtube_comments(date_str: str) -> list[dict]:
 
     results = []
     base_date = datetime.strptime(date_str, "%Y%m%d")
-    published_after = (base_date - timedelta(days=7)).strftime("%Y-%m-%dT00:00:00Z")
+    published_after = (base_date - timedelta(days=30)).strftime("%Y-%m-%dT00:00:00Z")
 
     for query in YOUTUBE_QUERIES:
         try:
@@ -279,7 +291,7 @@ def collect_youtube_comments(date_str: str) -> list[dict]:
                     "q": query,
                     "part": "snippet",
                     "type": "video",
-                    "maxResults": 3,
+                    "maxResults": 5,
                     "order": "relevance",
                     "publishedAfter": published_after,
                     "relevanceLanguage": "ko",
@@ -302,7 +314,7 @@ def collect_youtube_comments(date_str: str) -> list[dict]:
                         "key": YOUTUBE_API_KEY,
                         "videoId": vid_id,
                         "part": "snippet",
-                        "maxResults": 5,
+                        "maxResults": 20,
                         "order": "relevance",
                     },
                     timeout=10,
@@ -373,9 +385,6 @@ def run(date_str: str = None):
     print(f"{'='*50}")
 
     rows = []
-    rows += collect_naver_news(date_str)
-    rows += collect_naver_blog(date_str)
-    rows += collect_naver_cafe(date_str)
     rows += collect_youtube_comments(date_str)
     save_xlsx(rows, date_str)
 

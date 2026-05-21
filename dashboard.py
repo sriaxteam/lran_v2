@@ -1818,9 +1818,6 @@ citizen_voice_items = get_citizen_voice_items(date_str)
 # 채널별 개수
 cv_counts = {
     "all":     len(citizen_voice_items),
-    "naver":   sum(1 for x in citizen_voice_items if x.get("channel") == "naver"),
-    "blog":    sum(1 for x in citizen_voice_items if x.get("channel") == "blog"),
-    "cafe":    sum(1 for x in citizen_voice_items if x.get("channel") == "cafe"),
     "youtube": sum(1 for x in citizen_voice_items if x.get("channel") == "youtube"),
 }
 
@@ -1836,12 +1833,9 @@ st.markdown("""
 # 실제 동작하는 st.tabs
 cv_tab_labels = [
     f"전체 {cv_counts['all']}",
-    f"네이버 뉴스 {cv_counts['naver']}",
-    f"블로그 {cv_counts['blog']}",
-    f"카페 {cv_counts['cafe']}",
-    f"유튜브 {cv_counts['youtube']}",
+    f"유튜브 댓글 {cv_counts['youtube']}",
 ]
-cv_channel_keys = ["all", "naver", "blog", "cafe", "youtube"]
+cv_channel_keys = ["all", "youtube"]
 
 cv_tabs = st.tabs(cv_tab_labels)
 for tab, ch_key in zip(cv_tabs, cv_channel_keys):
