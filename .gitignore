@@ -7,6 +7,8 @@ __pycache__/
 .DS_Store
 data/raw/
 data/clean/
-*.xlsx
 *.txt
 !requirements.txt
+# xlsx는 data/citizen_voice 제외하고 무시
+data/**/*.xlsx
+!data/citizen_voice/*.xlsx
