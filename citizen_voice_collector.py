@@ -37,17 +37,17 @@ YOUTUBE_QUERIES = [
     "휘발유 기름값 주유소 요즘",
     "배달비 올랐다 자영업 소상공인",
     "전기요금 도시가스 인상 가계",
-    "외식비 식료품 물가 서민",
+    "이란 전쟁 유가 민생 영향",
+    "중동 전쟁 우리 생활 영향",
 ]
 
-# ── 전쟁/정치 키워드 필터 (생활과 무관한 댓글 제거) ──────
-EXCLUDE_KEYWORDS = [
-    "트럼프", "바이든", "이스라엘", "하마스", "미사일", "핵", "봉쇄",
-    "군사", "공습", "전투", "폭격", "협상", "외교", "제재", "UN",
-    "NATO", "러시아", "우크라이나",
+# ── 전쟁/이란 관련 키워드 (전쟁 댓글도 포함) ────────────
+WAR_KEYWORDS = [
+    "이란", "중동", "전쟁", "호르무즈", "유가", "원유", "봉쇄",
+    "트럼프", "미사일", "협상", "제재", "핵",
 ]
 
-# ── 민생 관련 키워드 (이 중 하나 이상 포함돼야 통과) ─────
+# ── 민생 관련 키워드 ──────────────────────────────────────
 LIFE_KEYWORDS = [
     "물가", "가격", "요금", "비용", "생활", "서민", "가계", "월급",
     "장바구니", "마트", "식료품", "배달", "주유", "기름", "가스",
@@ -56,13 +56,10 @@ LIFE_KEYWORDS = [
 ]
 
 def is_life_related(text: str) -> bool:
-    """전쟁/정치 댓글 걸러내고, 생활 민생 관련 댓글만 통과"""
-    exclude_hit = sum(1 for kw in EXCLUDE_KEYWORDS if kw in text)
-    life_hit    = sum(1 for kw in LIFE_KEYWORDS if kw in text)
-    # 제외 키워드가 1개라도 있으면 민생 키워드 2개 이상 필요
-    if exclude_hit >= 1:
-        return life_hit >= 2
-    return life_hit >= 1
+    """민생 OR 전쟁 관련 댓글 통과"""
+    life_hit = sum(1 for kw in LIFE_KEYWORDS if kw in text)
+    war_hit  = sum(1 for kw in WAR_KEYWORDS if kw in text)
+    return life_hit >= 1 or war_hit >= 1
 
 TAG_MAP = {
     "휘발유": "유류비", "유가": "유류비", "기름값": "유류비", "주유": "유류비",
