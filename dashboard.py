@@ -914,30 +914,7 @@ def cv_highlight(text, phrase):
 def build_citizen_voice_html(items, selected_channel="all", limit=4):
     items = items or []
 
-    counts = {
-        "all": len(items),
-        "naver": sum(1 for x in items if x.get("channel") == "naver"),
-        "youtube": sum(1 for x in items if x.get("channel") == "youtube"),
-        "local": sum(1 for x in items if x.get("channel") == "local"),
-        "daangn": sum(1 for x in items if x.get("channel") == "daangn"),
-    }
-
-    filtered = items[:limit] if selected_channel == "all" else [
-        x for x in items if x.get("channel") == selected_channel
-    ][:limit]
-
-    tabs = []
-    for key, label in [
-        ("all", "전체"),
-        ("naver", "네이버 뉴스"),
-        ("youtube", "유튜브"),
-        ("local", "지역 언론"),
-        ("daangn", "당근"),
-    ]:
-        active = " active" if key == selected_channel else ""
-        tabs.append(
-            f"<span class='cvoice-tab{active}'>{label}<span class='cnt'>{counts.get(key, 0)}</span></span>"
-        )
+    filtered = items[:limit]
 
     rows = []
     for row in filtered:
@@ -975,7 +952,6 @@ def build_citizen_voice_html(items, selected_channel="all", limit=4):
 
     return (
         f"<div class='cvoice-wrap'>"
-        f"<div class='cvoice-tabs'>{''.join(tabs)}</div>"
         f"<div class='cvoice-list'>{''.join(rows)}</div>"
         f"{foot}"
         f"</div>"
