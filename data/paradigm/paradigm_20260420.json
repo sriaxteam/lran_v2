@@ -1,0 +1,69 @@
+{
+  "date": "2026-04-20",
+  "generated_at": "2026-04-20T07:00:00.000000",
+  "total_signals": 14,
+  "structural_signals": 6,
+  "top_signal": "글로벌 에너지 공급망 구조 재편 — 중동 의존 탈피 가속",
+  "suwon_action": "도시가스·전기요금 추가 인상 선제 대응 준비, 에너지 바우처 2분기 조기 집행 건의",
+  "summary_ko": "이란-미 충돌 장기화로 글로벌 에너지 지형이 구조적으로 재편 중. 서방의 中東 LNG 의존 탈피 가속, 中-러-이란 에너지 블록 공고화, WTI $100 돌파 임박 등 6개 구조 변화 신호 감지. 수원시는 삼성전자 공급망 + 도시가스 이중 충격 노출.",
+  "weekly_trend": {
+    "2026-04-14": 8,
+    "2026-04-15": 9,
+    "2026-04-16": 11,
+    "2026-04-17": 12,
+    "2026-04-18": 13,
+    "2026-04-19": 13,
+    "2026-04-20": 14
+  },
+  "by_category": {
+    "에너지안보": 5,
+    "공급망재편": 3,
+    "경제충격": 3,
+    "외교패러다임": 2,
+    "금융시장": 1
+  },
+  "signals": [
+    {
+      "signal": "글로벌 LNG 공급망 서방-비서방 블록 분리 가속",
+      "category": "에너지안보",
+      "strength": "강",
+      "source": "IEA Oil Market Report 2026-04",
+      "suwon_impact": "한국 LNG 수입 단가 상승 — 도시가스 요금 추가 인상 압력"
+    },
+    {
+      "signal": "WTI 유가 $95 안착, $100 돌파 시나리오 주류화",
+      "category": "에너지안보",
+      "strength": "강",
+      "source": "Bloomberg, Goldman Sachs 리포트",
+      "suwon_impact": "국내 휘발유 2,000원 돌파 시 소상공인·운수업 비용 급등"
+    },
+    {
+      "signal": "호르무즈 해협 통과 물동량 구조적 감소",
+      "category": "공급망재편",
+      "strength": "강",
+      "source": "UNCTAD Transport Review 2026-Q1",
+      "suwon_impact": "수원 제조업 원자재 납기 지연, 삼성 부품 수급 리스크"
+    },
+    {
+      "signal": "IMF 한국 성장률 2026년 2.1% → 1.7% 하향",
+      "category": "경제충격",
+      "strength": "중",
+      "source": "IMF World Economic Outlook 2026-04",
+      "suwon_impact": "지역 고용·소비 위축, 소상공인 매출 감소 연동"
+    },
+    {
+      "signal": "중동 에너지 외교 다극화 — 미국 패권 약화",
+      "category": "외교패러다임",
+      "strength": "중",
+      "source": "CFR, Atlantic Council 분석",
+      "suwon_impact": "중장기 에너지 안보 불확실성 상시화"
+    },
+    {
+      "signal": "EU 에너지 공급 다변화 완료 목표 2027 → 2026 앞당김",
+      "category": "에너지안보",
+      "strength": "중",
+      "source": "EU 에너지 정책 성명 2026-04-18",
+      "suwon_impact": "아시아 LNG 물량 선점 경쟁 심화"
+    }
+  ]
+}

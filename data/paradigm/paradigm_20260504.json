@@ -1,0 +1,146 @@
+{
+  "date": "2026-05-04",
+  "total_signals": 5,
+  "structural_signals": 4,
+  "signals": [
+    {
+      "signal_id": "sig_002",
+      "category": "정책패러다임전환",
+      "title_ko": "OPEC 생산협력체제 장기화",
+      "description": "• Declaration of Cooperation 체제 지속 강화 중\n• 월간 석유시장 보고서 정례화로 시장 개입 신호 체계화\n• 비OPEC 협력국 포함한 생산조정 구조 제도화 진행",
+      "evidence_titles": [
+        "Declaration of Cooperation",
+        "Monthly Oil Market Report",
+        "61st Edition of OPEC's Annual Statistical Bulletin (ASB-2026) launched"
+      ],
+      "evidence_sources": [
+        "OPEC",
+        "OPEC",
+        "OPEC"
+      ],
+      "strength": 4,
+      "trend": "강화",
+      "suwon_implication": "국제 유가의 변동성이 과거와 다른 패턴으로 전환. 수원시 에너지 비용 예측 모델에 OPEC+ 정책 변수 필수 반영 필요.",
+      "is_structural": true,
+      "detected_date": "2026-05-04"
+    },
+    {
+      "signal_id": "sig_003",
+      "category": "에너지안보재편",
+      "title_ko": "사우디 에너지 정책 중심성 강화",
+      "description": "• OPEC 내 사우디아라비아 관련 독립 섹션 신설\n• 2045 세계 석유 전망에서 중동 생산국 역할 재강조\n• 장기 에너지 파트너십 기준이 가격→안정성·신뢰로 이동",
+      "evidence_titles": [
+        "Saudi Arabia - Organization of the Petroleum Exporting Countries",
+        "World Oil Outlook 2045",
+        "Annual Statistical Bulletin 2026"
+      ],
+      "evidence_sources": [
+        "OPEC",
+        "OPEC",
+        "OPEC"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "한국의 중동 의존도 심화 예상. 수원시 제조기업 에너지 공급 안정성 모니터링 체계 필요. 중장기 에너지 비용 상승 대비 필요.",
+      "is_structural": true,
+      "detected_date": "2026-05-04",
+      "first_detected": "2026-05-04"
+    },
+    {
+      "signal_id": "sig_001",
+      "category": "에너지안보재편",
+      "title_ko": "OPEC 화석연료 재정의 움직임",
+      "description": "• OPEC이 'fossil fuel' 용어 자체에 대한 재검토 필요성 제기\n• 재생에너지 실제 비용 공개 요구 강화 - 숨겨진 보조금·망 비용 포함\n• 석유의 장기 역할 재평가 작업 진행 중 (2045 전망 발표)",
+      "evidence_titles": [
+        "Does the 'fossil fuel' label require a rethink?",
+        "The true cost of renewables",
+        "World Oil Outlook 2045"
+      ],
+      "evidence_sources": [
+        "OPEC",
+        "OPEC",
+        "OPEC"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "에너지 전환 정책 설계 시 재생에너지 실제 비용 재평가 필요. 수원시 탄소중립 로드맵의 비용 추정 보수적 재검토 요구됨.",
+      "is_structural": true,
+      "detected_date": "2026-05-04",
+      "first_detected": "2026-05-04"
+    },
+    {
+      "signal_id": "sig_004",
+      "category": "무역공급망재편",
+      "title_ko": "OPEC 통계체계 정밀화",
+      "description": "• 연간 통계 보고서 61회 발간 지속 - 데이터 기반 시장 관리 강화\n• 월간 석유시장 보고서의 예측력 제고 노력\n• 회원국 생산·수출 데이터 투명성 제고 작업",
+      "evidence_titles": [
+        "61st Edition of OPEC's Annual Statistical Bulletin (ASB-2026) launched",
+        "Monthly Oil Market Report",
+        "Annual Statistical Bulletin 2026"
+      ],
+      "evidence_sources": [
+        "OPEC",
+        "OPEC",
+        "OPEC"
+      ],
+      "strength": 3,
+      "trend": "강화",
+      "suwon_implication": "에너지 시장 예측 가능성 증가. 수원시 기업 지원 정책에서 OPEC 공식 통계 활용한 선제적 에너지 비용 컨설팅 가능.",
+      "is_structural": true,
+      "detected_date": "2026-05-04"
+    },
+    {
+      "signal_id": "sig_005",
+      "category": "정책패러다임전환",
+      "title_ko": "석유산업 장기 고용전략 전환",
+      "description": "• OPEC 공식 채용 페이지 별도 운영 - 인력 양성 장기화 신호\n• 석유산업의 지속가능성 담론 강화 중\n• 화석연료→에너지 전환 기업으로 정체성 재구축 시도",
+      "evidence_titles": [
+        "Employment - Organization of the Petroleum Exporting Countries",
+        "Does the 'fossil fuel' label require a rethink?",
+        "Feature article"
+      ],
+      "evidence_sources": [
+        "OPEC",
+        "OPEC",
+        "OPEC"
+      ],
+      "strength": 2,
+      "trend": "신규",
+      "suwon_implication": "글로벌 에너지 기업의 인력 전략 변화 모니터링 필요. 수원시 에너지 관련 재교육 프로그램 설계 시 산업 트렌드 반영 요구됨.",
+      "is_structural": false,
+      "detected_date": "2026-05-04",
+      "first_detected": "2026-05-04"
+    }
+  ],
+  "by_category": {
+    "에너지안보재편": 2,
+    "정책패러다임전환": 2,
+    "무역공급망재편": 1
+  },
+  "summary_ko": "• OPEC이 '화석연료' 개념 재정의 시도 중 - 재생에너지 실제 비용 공개 요구 강화\n• OPEC+ 생산협력 체제 제도화로 국제 유가 변동성 패턴 근본 변화\n• 사우디 중심 중동 생산국 역할 재강조 - 에너지 파트너십 기준이 가격→안정성 이동\n• OPEC 통계체계 정밀화로 에너지 시장 예측 가능성 증가\n• 석유산업의 장기 생존 전략 - 화석연료 기업→에너지 전환 기업 정체성 재구축",
+  "top_signal": "OPEC 생산협력체제 장기화",
+  "suwon_action": "수원시 탄소중립 로드맵의 에너지 비용 추정 재검토 필요 - OPEC+ 정책변수 반영한 보수적 시나리오 필수\n제조기업 대상 중동 의존도 심화 대응 에너지 안정성 모니터링 체계 즉시 구축 요망",
+  "weekly_trend": {
+    "정책패러다임전환": {
+      "count": 16,
+      "max_strength": 5
+    },
+    "무역공급망재편": {
+      "count": 11,
+      "max_strength": 5
+    },
+    "에너지안보재편": {
+      "count": 7,
+      "max_strength": 5
+    },
+    "민생충격패턴": {
+      "count": 7,
+      "max_strength": 4
+    },
+    "지역질서재편": {
+      "count": 1,
+      "max_strength": 4
+    }
+  },
+  "generated_at": "2026-05-04T05:57:08.497668"
+}

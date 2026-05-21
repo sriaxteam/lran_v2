@@ -1,0 +1,188 @@
+{
+  "date": "2026-05-11",
+  "total_signals": 8,
+  "structural_signals": 8,
+  "signals": [
+    {
+      "signal_id": "sig_001",
+      "category": "정책패러다임전환",
+      "title_ko": "IMF 글로벌 경제 전쟁 그림자 진단",
+      "description": "• IMF가 2026년 4월 세계경제전망(WEO)을 '전쟁의 그림자 속 글로벌 경제'로 명명\n• 전쟁이 일회성 충격이 아닌 경제 구조 전반에 지속 영향을 미치는 새 현실로 인식\n• 국제기구 차원에서 전쟁 리스크를 경제 예측의 상시 변수로 통합하는 패러다임 전환",
+      "evidence_titles": [
+        "World Economic Outlook, April 2026: Global Economy in the Shadow of War",
+        "World Economic Outlook, April 2026; Global Economy in the Shadow of War; April 14, 2026"
+      ],
+      "evidence_sources": [
+        "IMF_News",
+        "IMF_News"
+      ],
+      "strength": 5,
+      "trend": "신규",
+      "suwon_implication": "수원시 중장기 재정계획 수립 시 지정학 리스크를 상시 변수로 반영해야 하며, 에너지·물가 안정 대책도 단기 대응이 아닌 구조적 변동성 전제로 재설계 필요",
+      "is_structural": true,
+      "detected_date": "2026-05-11",
+      "first_detected": "2026-05-11"
+    },
+    {
+      "signal_id": "sig_004",
+      "category": "정책패러다임전환",
+      "title_ko": "IMF 경제전망 시계열 명칭 변화",
+      "description": "• 2025년 7월 '지속되는 불확실성 속 미약한 회복력'에서 2026년 1월 '상반된 힘 속 안정', 4월 '전쟁의 그림자'로 급격한 표현 변화\n• 3분기 만에 경제 전망 기조가 '불확실성 관리'에서 '전쟁 리스크 상시화'로 전환\n• 국제 경제 예측의 기본 가정 자체가 평화 기반에서 지정학 불안정 상시 반영으로 구조적 전환",
+      "evidence_titles": [
+        "World Economic Outlook Update, July 2025: Global Economy: Tenuous Resilience amid Persistent Uncertainty",
+        "World Economic Outlook Update, January 2026: Global Economy: Steady amid Divergent Forces",
+        "World Economic Outlook, April 2026: Global Economy in the Shadow of War"
+      ],
+      "evidence_sources": [
+        "IMF_News",
+        "IMF_News",
+        "IMF_News"
+      ],
+      "strength": 5,
+      "trend": "강화",
+      "suwon_implication": "수원시 중장기 재정·민생 정책 설계 시 '정상 시나리오'와 '위기 시나리오' 이분법을 넘어, 지정학 불안정을 기본 전제로 하는 유연성·회복탄력성 중심 설계로 전환 필요",
+      "is_structural": true,
+      "detected_date": "2026-05-11"
+    },
+    {
+      "signal_id": "sig_002",
+      "category": "정책패러다임전환",
+      "title_ko": "AI 기반 사이버공격과 금융안정성 위협",
+      "description": "• IMF가 인공지능을 활용한 사이버공격이 금융안정 리스크를 증폭시킨다고 공식 진단\n• 전쟁·지정학 갈등 시기 AI 무기화가 금융시스템 취약성을 구조적으로 확대\n• 국제기구가 AI 위협을 금융안정성 평가의 핵심 요소로 통합하는 정책 전환",
+      "evidence_titles": [
+        "Financial Stability Risks Mount as Artificial Intelligence Fuels Cyberattacks"
+      ],
+      "evidence_sources": [
+        "IMF_News"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 금융기관, 공공기관 디지털 인프라의 사이버 보안 강화가 단순 IT 이슈가 아닌 재정 안정성 확보의 필수 요소로 재인식되어야 하며, 중장기 투자 우선순위 상향 필요",
+      "is_structural": true,
+      "detected_date": "2026-05-11",
+      "first_detected": "2026-05-11"
+    },
+    {
+      "signal_id": "sig_003",
+      "category": "민생충격패턴",
+      "title_ko": "개도국 이중 압박: 자원수입 감소·원조 축소",
+      "description": "• IMF가 개발도상국이 천연자원 수익 감소와 해외 원조 축소를 동시에 겪는 구조적 압박 진단\n• 전쟁으로 인한 선진국 재정 부담 증가가 개도국 지원 감축으로 연결되는 새 패턴\n• 글로벌 불평등 심화와 개도국 재정위기 장기화 가능성 공식 경고",
+      "evidence_titles": [
+        "Developing Countries Feel Squeeze From Lower Natural Resource Revenue, Falling Foreign Aid"
+      ],
+      "evidence_sources": [
+        "IMF_News"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 외국인 근로자(특히 개도국 출신) 송금 수요 증가, 모국 경제 불안으로 인한 장기 체류 경향 강화 예상. 다문화 가족 지원, 외국인 근로자 복지 수요가 구조적으로 확대될 가능성",
+      "is_structural": true,
+      "detected_date": "2026-05-11",
+      "first_detected": "2026-05-11"
+    },
+    {
+      "signal_id": "sig_005",
+      "category": "무역공급망재편",
+      "title_ko": "해상 초크포인트 모니터링 상시화",
+      "description": "• IMF가 PortWatch를 통해 주요 해상 초크포인트(chokepoint)와 항만(Port Monitor) 실시간 모니터링 데이터 제공 시작\n• 전쟁 시 해운 차단 리스크를 경제 지표와 동등한 수준으로 상시 추적하는 체계 구축\n• 글로벌 공급망 안정성이 더 이상 민간 물류 차원이 아닌 국제 경제 안보 차원으로 격상",
+      "evidence_titles": [
+        "chokepoint6 - PortWatch",
+        "Port Monitor - PortWatch"
+      ],
+      "evidence_sources": [
+        "IMF_News",
+        "IMF_News"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 제조기업(특히 수출 의존 중소기업)의 공급망 리스크 관리 역량 강화 지원 필요. 시 차원에서 기업 대상 공급망 다변화 컨설팅, 비상 물류 대응 매뉴얼 보급 등 선제 대응 필요",
+      "is_structural": true,
+      "detected_date": "2026-05-11",
+      "first_detected": "2026-05-11"
+    },
+    {
+      "signal_id": "sig_006",
+      "category": "민생충격패턴",
+      "title_ko": "인플레이션 구조적 상승 경고",
+      "description": "• IMF가 'Inflation: Prices on the Rise' 보고서를 통해 전쟁·공급망 교란으로 인한 물가 상승을 구조적 현상으로 진단\n• 일시적 인플레이션 압력이 아닌 중장기 물가 상승 압력으로 패러다임 전환\n• 각국 중앙은행 금리 정책의 장기화, 서민 생계비 구조적 상승 압력 공식 인정",
+      "evidence_titles": [
+        "Inflation: Prices on the Rise"
+      ],
+      "evidence_sources": [
+        "IMF_News"
+      ],
+      "strength": 4,
+      "trend": "강화",
+      "suwon_implication": "수원시 취약계층 생계 지원 예산을 단기 긴급 지원이 아닌 중장기 구조적 물가 상승 전제로 재설계 필요. 에너지 바우처, 식료품 지원 등 물가연동형 복지 시스템 강화 시급",
+      "is_structural": true,
+      "detected_date": "2026-05-11"
+    },
+    {
+      "signal_id": "sig_007",
+      "category": "정책패러다임전환",
+      "title_ko": "IMF 재정모니터 전쟁 리스크 통합",
+      "description": "• IMF 재정모니터(Fiscal Monitor)가 각국 재정 건전성 평가 시 전쟁 리스크를 상시 변수로 통합\n• 재정정책 평가 기준이 부채비율·재정적자 중심에서 지정학 충격 흡수 능력 포함으로 확장\n• 국제 재정 건전성 기준 자체의 패러다임 전환",
+      "evidence_titles": [
+        "Fiscal Monitor"
+      ],
+      "evidence_sources": [
+        "IMF_News"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 재정 건전성 관리 시 단순 부채비율 관리를 넘어, 에너지 위기·공급망 교란 등 외부 충격 흡수 능력(재정 버퍼) 확보를 중장기 재정전략의 핵심 지표로 반영 필요",
+      "is_structural": true,
+      "detected_date": "2026-05-11",
+      "first_detected": "2026-05-11"
+    },
+    {
+      "signal_id": "sig_008",
+      "category": "정책패러다임전환",
+      "title_ko": "개도국 재정 분권화 연구 강화",
+      "description": "• IMF가 라틴아메리카 재정 분권화와 경기 순환성 연구를 통해 지방정부 재정 자율성과 위기 대응력 관계 분석 강화\n• 중앙-지방 재정 관계가 국가 차원 경제 충격 흡수 능력의 핵심 변수로 부상\n• 지방재정 자율성이 국가 전체 경제 회복탄력성에 미치는 구조적 영향 인정",
+      "evidence_titles": [
+        "Fiscal Decentralization and Cyclicality in Latin America: Evidence from a New Regional Budget Database"
+      ],
+      "evidence_sources": [
+        "IMF_News"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시가 중앙정부 의존형 재정 구조에서 벗어나 자체 재원 확보, 재정 자율성 강화를 통해 외부 충격(에너지 위기 등) 대응력을 높이는 것이 국제적 정책 벤치마크로 부상",
+      "is_structural": true,
+      "detected_date": "2026-05-11",
+      "first_detected": "2026-05-11"
+    }
+  ],
+  "by_category": {
+    "정책패러다임전환": 5,
+    "민생충격패턴": 2,
+    "무역공급망재편": 1
+  },
+  "summary_ko": "• IMF가 2026년 4월 '전쟁의 그림자 속 글로벌 경제'로 세계경제전망 명칭을 전환하며, 전쟁 리스크를 경제 예측의 상시 변수로 통합하는 패러다임 전환 공식화\n• AI 사이버공격이 금융안정성 위협으로, 해상 초크포인트 모니터링이 경제안보 지표로 격상되며 안보-경제 통합 평가 체계 구축\n• 구조적 인플레이션 압력 공식 인정과 함께 개도국 이중 압박(자원수익 감소·원조 축소) 진단으로 글로벌 불평등 심화 경고\n• 재정 건전성 평가 기준이 부채비율 중심에서 지정학 충격 흡수 능력 포함으로 확장되며, 지방재정 자율성이 국가 경제 회복탄력성의 핵심 변수로 부상\n• 8개 전 신호가 구조적 변화를 가리키며, 단기 대응이 아닌 중장기 정책 설계 전환 필요성을 시사",
+  "top_signal": "IMF 글로벌 경제 전쟁 그림자 진단",
+  "suwon_action": "• 2027년 수원시 중장기 재정계획 수립 시 지정학 리스크를 상시 변수로 반영하는 시나리오 기획 착수 (기존 정상-위기 이분법 폐기)\n• 구조적 물가 상승 전제로 취약계층 생계 지원 예산을 물가연동형으로 재설계하고, 제조기업 공급망 리스크 관리 지원 체계 긴급 점검",
+  "weekly_trend": {
+    "정책패러다임전환": {
+      "count": 11,
+      "max_strength": 5
+    },
+    "무역공급망재편": {
+      "count": 6,
+      "max_strength": 5
+    },
+    "민생충격패턴": {
+      "count": 5,
+      "max_strength": 4
+    },
+    "에너지안보재편": {
+      "count": 3,
+      "max_strength": 4
+    },
+    "지역질서재편": {
+      "count": 1,
+      "max_strength": 3
+    }
+  },
+  "generated_at": "2026-05-11T07:41:07.024797"
+}

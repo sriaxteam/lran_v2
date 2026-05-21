@@ -1,0 +1,286 @@
+{
+  "date": "2026-04-28",
+  "total_signals": 12,
+  "structural_signals": 12,
+  "signals": [
+    {
+      "signal_id": "sig_003",
+      "category": "에너지안보재편",
+      "title_ko": "에너지 파트너십 신뢰 기준 전환",
+      "description": "• 2026년 위기 이후 에너지 조달 기준이 '최저가 입찰'에서 '공급 신뢰성·지정학적 안정성' 중심으로 이동\n• 호르무즈 해협 등 지정학적 초크포인트 의존도 감축 전략 부상\n• 에너지 안보 개념이 '가격'에서 '조달 다변화·안정성'으로 재정의",
+      "evidence_titles": [
+        "Strait of Hormuz - IEA",
+        "How Europe can cut natural gas imports from Russia significantly within a year - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA"
+      ],
+      "strength": 5,
+      "trend": "신규",
+      "suwon_implication": "수원시 에너지 비용 중장기 상승 압력 예상, 공공시설 에너지 효율화 투자 ROI 재산정 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-28",
+      "first_detected": "2026-04-28"
+    },
+    {
+      "signal_id": "sig_004",
+      "category": "정책패러다임전환",
+      "title_ko": "청정에너지 전환 가속 구조화",
+      "description": "• 화석연료 가격 불안정성이 청정에너지(태양광·EV·수소) 투자를 '선택'에서 '필수 안보 전략'으로 전환\n• IEA Net Zero 2050 로드맵이 이상론에서 현실적 리스크 관리 수단으로 재평가\n• 에너지 전환 동력이 기후 목표에서 '경제·안보 필수 조건'으로 이동",
+      "evidence_titles": [
+        "Net Zero by 2050 – Analysis - IEA",
+        "Global EV Outlook 2025 – Analysis - IEA",
+        "Solar PV - IEA",
+        "The Future of Hydrogen – Analysis - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA",
+        "IEA",
+        "IEA"
+      ],
+      "strength": 5,
+      "trend": "강화",
+      "suwon_implication": "수원시 그린뉴딜·RE100 정책이 민생안정 정책과 통합 가능, 청정에너지 전환을 에너지 자립 전략으로 재포지셔닝 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-28"
+    },
+    {
+      "signal_id": "sig_001",
+      "category": "에너지안보재편",
+      "title_ko": "중동 위기로 LNG 공급망 지연",
+      "description": "• IEA 보고: 중동 위기가 국제 천연가스 시장 교란 및 글로벌 LNG 공급 파동 지연 초래\n• 단기 충격 아닌 중장기 LNG 공급 구조 불확실성 증가\n• 에너지 수입국의 조달 안정성·가격 예측 가능성 저하",
+      "evidence_titles": [
+        "Middle East crisis disrupts international natural gas markets and delays global LNG supply wave - IEA",
+        "Gas Market Report, Q2-2026 – Analysis - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 도시가스 요금 중장기 불안정 예상, 취약계층 난방비 지원 대책 선제 검토 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-28",
+      "first_detected": "2026-04-28"
+    },
+    {
+      "signal_id": "sig_002",
+      "category": "정책패러다임전환",
+      "title_ko": "2026 에너지 위기 정책 대응 추적",
+      "description": "• IEA가 '2026 Energy Crisis Policy Response Tracker' 신설, 국가별 위기 대응 정책 실시간 모니터링\n• 에너지 위기가 일회성 이벤트 아닌 '상시 관리 영역'으로 정책 패러다임 전환\n• 각국 정부의 민생·산업 보호 정책 표준화·벤치마킹 체계 구축",
+      "evidence_titles": [
+        "2026 Energy Crisis Policy Response Tracker – Data Tools - IEA",
+        "How governments can best support consumers during this energy crisis – Analysis - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 에너지 취약계층 지원정책을 국제 모범 사례와 비교·개선 가능, 정책 설계 시 IEA 기준 참조 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-28",
+      "first_detected": "2026-04-28"
+    },
+    {
+      "signal_id": "sig_005",
+      "category": "무역공급망재편",
+      "title_ko": "핵심광물 추적성 안보 이슈화",
+      "description": "• IEA가 '핵심광물 추적성(Critical Mineral Traceability)' 보고서 발간, 청정에너지 공급망을 안보·경제 안정 관점으로 재구성\n• 배터리·태양광 원자재 조달이 지정학적 리스크 관리 대상으로 부상\n• 에너지 전환이 '새로운 공급망 의존성'을 창출, 원자재 다변화 전략 필수화",
+      "evidence_titles": [
+        "Critical Mineral Traceability for Energy and Economic Security – Analysis - IEA",
+        "The Role of Critical Minerals in Clean Energy Transitions – Analysis - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 소재부품 제조기업 공급망 점검 필요, 핵심광물 의존도 높은 산업의 장기 리스크 모니터링 체계 구축 권고",
+      "is_structural": true,
+      "detected_date": "2026-04-28",
+      "first_detected": "2026-04-28"
+    },
+    {
+      "signal_id": "sig_006",
+      "category": "민생충격패턴",
+      "title_ko": "에너지 위기 소비자 보호 표준화",
+      "description": "• IEA가 에너지 위기 시 '정부의 소비자 지원 모범 사례' 가이드라인 제시\n• 단기 보조금 중심에서 '에너지 효율 투자·취약계층 타겟팅·시장 왜곡 최소화' 통합 접근으로 전환\n• 위기 대응이 긴급 처방에서 '구조적 민생 보호 체계 구축'으로 패러다임 변화",
+      "evidence_titles": [
+        "How governments can best support consumers during this energy crisis – Analysis - IEA",
+        "2026 Energy Crisis Policy Response Tracker – Data Tools - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 에너지 바우처·난방비 지원 정책을 IEA 모범 사례와 비교 평가, 취약계층 대상 에너지 효율 개선 투자 연계 검토 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-28",
+      "first_detected": "2026-04-28"
+    },
+    {
+      "signal_id": "sig_009",
+      "category": "에너지안보재편",
+      "title_ko": "전력망 탈탄소화 구조 전환",
+      "description": "• 2025년 글로벌 에너지 수요 증가분을 태양광 1위, 천연가스 2위가 충족 (IEA Global Energy Review 2026)\n• 발전 믹스가 화석연료 중심에서 '재생에너지+가스 과도기 체제'로 구조 전환 중\n• 전력 공급 안정성 개념이 '기저부하'에서 '재생에너지+유연성 자원' 조합으로 재정의",
+      "evidence_titles": [
+        "Global energy demand growth was met by diverse range of sources in 2025, led by solar and then gas - IEA",
+        "Electricity 2024 – Analysis - IEA",
+        "Electricity – Global Energy Review 2025 – Analysis - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA",
+        "IEA"
+      ],
+      "strength": 4,
+      "trend": "강화",
+      "suwon_implication": "수원시 공공건물 태양광 투자·ESS 도입 타당성 재평가, 전력 자립률 제고가 에너지 비용 안정화 핵심 수단",
+      "is_structural": true,
+      "detected_date": "2026-04-28"
+    },
+    {
+      "signal_id": "sig_011",
+      "category": "지역질서재편",
+      "title_ko": "호르무즈 해협 의존도 안보 변수화",
+      "description": "• IEA가 호르무즈 해협을 단독 분석 대상으로 지정, 지정학적 초크포인트가 에너지 안보 핵심 리스크로 재인식\n• 중동 위기로 단일 해상 경로 의존의 구조적 취약성 명확화\n• 에너지 수입국들의 조달 경로 다변화·비축 전략 재설계 압력 증가",
+      "evidence_titles": [
+        "Strait of Hormuz - IEA",
+        "Middle East crisis disrupts international natural gas markets and delays global LNG supply wave - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 에너지 공급 중단 시나리오 대응 매뉴얼 정비, 공공시설 비상 에너지 비축·자립 시스템 검토",
+      "is_structural": true,
+      "detected_date": "2026-04-28",
+      "first_detected": "2026-04-28"
+    },
+    {
+      "signal_id": "sig_007",
+      "category": "에너지안보재편",
+      "title_ko": "AI 에너지 수요 안보 이슈 부상",
+      "description": "• IEA가 'AI 에너지 수요' 전담 보고서 발간, AI·데이터센터 전력 소비를 국가 에너지 안보 변수로 공식 인정\n• 디지털 인프라 전력 수요가 국가 전력망 계획·투자 우선순위 재조정 초래\n• 에너지 수급 예측에 'AI 전력 소비' 변수가 필수 요소로 편입",
+      "evidence_titles": [
+        "Energy demand from AI – Energy and AI – Analysis - IEA",
+        "Data Centres and Data Transmission Networks - IEA",
+        "Energy supply for AI – Energy and AI – Analysis - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA",
+        "IEA"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 스마트시티·디지털 전환 사업 전력 수요 재평가 필요, 데이터센터 유치 시 전력 인프라 영향 평가 선제 검토",
+      "is_structural": true,
+      "detected_date": "2026-04-28",
+      "first_detected": "2026-04-28"
+    },
+    {
+      "signal_id": "sig_008",
+      "category": "정책패러다임전환",
+      "title_ko": "청정에너지 진행 추적 상시화",
+      "description": "• IEA가 'Tracking Clean Energy Progress' 상시 모니터링 체계 구축, 국가별 전환 속도를 실시간 벤치마킹\n• 에너지 전환이 선언적 목표에서 '측정 가능한 KPI·국가 간 경쟁 지표'로 제도화\n• 정책 성과를 국제 비교 가능 데이터로 공개, 정책 투명성·책임성 강화",
+      "evidence_titles": [
+        "Tracking Clean Energy Progress 2023 – Analysis - IEA",
+        "Net Zero by 2050 – Analysis - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA"
+      ],
+      "strength": 3,
+      "trend": "강화",
+      "suwon_implication": "수원시 탄소중립 정책 성과를 국제 기준으로 평가·공개 가능, 시민 신뢰 제고 및 정책 개선 근거 확보",
+      "is_structural": true,
+      "detected_date": "2026-04-28"
+    },
+    {
+      "signal_id": "sig_010",
+      "category": "무역공급망재편",
+      "title_ko": "EV 생애주기 평가 표준화",
+      "description": "• IEA가 'EV Life Cycle Assessment Calculator' 공개, EV 환경성을 전 생애주기로 평가하는 국제 표준 제시\n• EV 보급 정책이 '판매 대수'에서 '탄소 감축 실효성' 중심으로 평가 기준 전환\n• 배터리 원자재 채굴~폐기까지 추적성·지속가능성이 EV 정책 핵심 요소로 부상",
+      "evidence_titles": [
+        "EV Life Cycle Assessment Calculator – Data Tools - IEA",
+        "Global EV Outlook 2025 – Analysis - IEA",
+        "Trends in electric car markets – Global EV Outlook 2025 – Analysis - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA",
+        "IEA"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 전기차 보급 정책을 생애주기 관점으로 재설계, 충전 인프라·배터리 재활용 체계 통합 검토 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-28",
+      "first_detected": "2026-04-28"
+    },
+    {
+      "signal_id": "sig_012",
+      "category": "민생충격패턴",
+      "title_ko": "건물 에너지 효율 민생 핵심화",
+      "description": "• IEA가 'Buildings' 섹터를 에너지 위기 대응·민생 보호 핵심 영역으로 재정의\n• 에너지 가격 변동성 완충 수단으로 건물 단열·효율 개선 투자 우선순위 상승\n• 취약계층 에너지 부담 경감 정책이 보조금에서 '건물 성능 개선 투자'로 전환",
+      "evidence_titles": [
+        "Buildings - IEA",
+        "How governments can best support consumers during this energy crisis – Analysis - IEA"
+      ],
+      "evidence_sources": [
+        "IEA",
+        "IEA"
+      ],
+      "strength": 3,
+      "trend": "강화",
+      "suwon_implication": "수원시 노후 공동주택 단열 개선 사업을 민생안정 정책으로 재포지셔닝, 저소득층 주거 에너지 효율 투자 확대 근거 확보",
+      "is_structural": true,
+      "detected_date": "2026-04-28"
+    }
+  ],
+  "by_category": {
+    "에너지안보재편": 4,
+    "정책패러다임전환": 3,
+    "무역공급망재편": 2,
+    "민생충격패턴": 2,
+    "지역질서재편": 1
+  },
+  "summary_ko": "• 이란-미국 전쟁(2026)이 에너지 안보 패러다임을 '가격 중심'에서 '공급 신뢰성·지정학 안정성 중심'으로 전환\n• IEA가 에너지 위기 대응을 상시 모니터링 체계로 제도화, 각국 정책을 실시간 벤치마킹 가능한 국제 표준 구축\n• 화석연료 불안정성이 청정에너지 전환을 '선택'에서 '경제·안보 필수 전략'으로 격상, 태양광·EV·수소 투자 동력 전환\n• 호르무즈 해협 등 지정학적 초크포인트 의존도가 국가 안보 핵심 변수로 부상, 에너지 조달 경로 다변화 압력 증가\n• AI·데이터센터 전력 수요가 에너지 안보 신규 변수로 편입, 디지털 전환이 전력망 계획 우선순위 재조정 초래",
+  "top_signal": "에너지 파트너십 신뢰 기준 전환",
+  "suwon_action": "• 수원시 에너지 취약계층 지원정책을 IEA 국제 모범 사례와 비교·개선, 단기 보조금에서 건물 효율 투자 연계 체계로 전환 검토\n• 공공시설 태양광·ESS 투자를 에너지 비용 안정화 핵심 수단으로 재평가, 중장기 에너지 자립률 제고 로드맵 수립",
+  "weekly_trend": {
+    "정책패러다임전환": {
+      "count": 8,
+      "max_strength": 5
+    },
+    "민생충격패턴": {
+      "count": 5,
+      "max_strength": 4
+    },
+    "에너지안보재편": {
+      "count": 4,
+      "max_strength": 5
+    },
+    "무역공급망재편": {
+      "count": 4,
+      "max_strength": 4
+    },
+    "지역질서재편": {
+      "count": 1,
+      "max_strength": 4
+    }
+  },
+  "generated_at": "2026-04-28T10:10:11.999774"
+}

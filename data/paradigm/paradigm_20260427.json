@@ -1,0 +1,210 @@
+{
+  "date": "2026-04-27",
+  "total_signals": 10,
+  "structural_signals": 10,
+  "signals": [
+    {
+      "signal_id": "sig_002",
+      "category": "정책패러다임전환",
+      "title_ko": "정책불확실성이 경제수요 억제",
+      "description": "• OECD가 '정책 불확실성(policy uncertainty)'을 글로벌 경제성장 약화의 핵심 원인으로 공식 진단\n• 전통적 경기순환 요인이 아닌 '정책 예측불가능성' 자체가 수요감소 구조요인으로 부상\n• 이란-미국 전쟁(2026) 등 지정학 리스크가 정책불확실성 증폭 → 민간소비·투자 위축",
+      "evidence_titles": [
+        "Global economic outlook weakens as policy uncertainty weighs on demand - OECD"
+      ],
+      "evidence_sources": [
+        "OECD_News"
+      ],
+      "strength": 5,
+      "trend": "신규",
+      "suwon_implication": "수원시 소상공인·자영업자 매출감소 구조화 우려. 단기 경기부양책보다 '예측가능한 행정' 자체가 민생안정 핵심요소로 부상",
+      "is_structural": true,
+      "detected_date": "2026-04-27",
+      "first_detected": "2026-04-27"
+    },
+    {
+      "signal_id": "sig_006",
+      "category": "정책패러다임전환",
+      "title_ko": "안보경제 개념 공식화",
+      "description": "• OECD 'The Security Economy' 보고서로 '안보경제(security economy)' 개념 정립\n• 경제정책과 안보정책의 경계 소멸 → 공급망·에너지·식량을 안보 관점으로 통합 관리하는 패러다임\n• 이란-미국 전쟁(2026) 등 지정학 위기가 경제정책 설계 자체를 구조적으로 변화시키는 신호",
+      "evidence_titles": [
+        "The Security Economy - OECD"
+      ],
+      "evidence_sources": [
+        "OECD_News"
+      ],
+      "strength": 5,
+      "trend": "신규",
+      "suwon_implication": "수원시 에너지·식량 비축, 공급망 이중화가 위기대응이 아닌 '평상시 필수 행정기능'으로 전환. 민생안정 개념 재정의 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-27",
+      "first_detected": "2026-04-27"
+    },
+    {
+      "signal_id": "sig_001",
+      "category": "정책패러다임전환",
+      "title_ko": "OECD 노동세 부담 지속 상승",
+      "description": "• OECD 전역에서 노동세(labour tax) 부담이 지속적으로 증가하는 구조적 추세 감지\n• 'Taxing Wages 2026' 보고서를 통해 회원국 임금소득자 세부담 증가 패턴 공식 확인\n• 글로벌 재정압박 속 노동소득 과세 강화가 정책 표준으로 자리잡는 신호",
+      "evidence_titles": [
+        "Taxes on labour continue to rise across OECD countries - OECD",
+        "Taxing Wages 2026 - OECD"
+      ],
+      "evidence_sources": [
+        "OECD_News",
+        "OECD_News"
+      ],
+      "strength": 4,
+      "trend": "강화",
+      "suwon_implication": "수원시 중산층 실질소득 감소 압박 예상. 지방세·복지재원 설계 시 중앙정부 세수구조 변화 반영 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-27"
+    },
+    {
+      "signal_id": "sig_004",
+      "category": "정책패러다임전환",
+      "title_ko": "녹색성장 정책수단 표준화",
+      "description": "• OECD 'Economic policies to foster green growth' 보고서로 녹색성장 정책수단 체계화\n• 환경규제가 선택사항이 아닌 '경제정책 필수요소'로 패러다임 전환 공식화\n• 탄소가격·보조금 재설계·세제개편이 OECD 국가 표준 정책패키지로 자리잡는 신호",
+      "evidence_titles": [
+        "Economic policies to foster green growth - OECD"
+      ],
+      "evidence_sources": [
+        "OECD_News"
+      ],
+      "strength": 4,
+      "trend": "강화",
+      "suwon_implication": "수원시 기업 환경규제 대응비용 증가 불가피. 녹색전환 지원체계 구축이 기업경쟁력 유지의 필수 행정서비스로 전환",
+      "is_structural": true,
+      "detected_date": "2026-04-27"
+    },
+    {
+      "signal_id": "sig_007",
+      "category": "민생충격패턴",
+      "title_ko": "노동시장 구조변화 가속",
+      "description": "• OECD 'Labour Market Situation' 2026년 4월 업데이트로 회원국 노동시장 불안정성 증가 추세 확인\n• 전쟁·정책불확실성 → 고용불안 → 소득변동성 증가의 구조화\n• 단기 실업률 수치가 아닌 '고용 질(quality)' 악화 패턴이 민생안정 위협요인으로 부상",
+      "evidence_titles": [
+        "Labour Market Situation , OECD - Updated: April 2026 - OECD"
+      ],
+      "evidence_sources": [
+        "OECD_News"
+      ],
+      "strength": 4,
+      "trend": "강화",
+      "suwon_implication": "수원시 일자리 정책을 '일자리 수' 중심에서 '고용안정성·소득예측가능성' 중심으로 재설계 필요. 불안정 노동 증가 대비 필수",
+      "is_structural": true,
+      "detected_date": "2026-04-27"
+    },
+    {
+      "signal_id": "sig_008",
+      "category": "정책패러다임전환",
+      "title_ko": "디지털경제 정책표준 재편",
+      "description": "• OECD 'Digital Economy Outlook 2024' 및 AI 원칙 업데이트로 디지털 정책 국제표준 재설정\n• 전쟁·위기 속 디지털 인프라 안정성·신뢰성이 경제회복력 핵심요소로 부상\n• 디지털 전환이 선택사항이 아닌 '생존조건'으로 패러다임 전환",
+      "evidence_titles": [
+        "OECD Digital Economy Outlook 2024 (Volume 1) (EN) - OECD",
+        "AI principles - OECD"
+      ],
+      "evidence_sources": [
+        "OECD_News",
+        "OECD_News"
+      ],
+      "strength": 4,
+      "trend": "강화",
+      "suwon_implication": "수원시 디지털 행정서비스 중단 시 민생안정 직접 타격. 디지털 인프라 안정성 확보가 재난대응 수준의 우선순위로 격상 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-27"
+    },
+    {
+      "signal_id": "sig_003",
+      "category": "무역공급망재편",
+      "title_ko": "글로벌 가치사슬 측정체계 재편",
+      "description": "• OECD 'Trade in value-added' 통계 업데이트를 통해 글로벌 가치사슬(GVC) 추적방식 고도화\n• 전쟁·제재 등으로 공급망 불안정성 증가 → 부가가치 흐름 가시성 확보가 정책 우선순위로 전환\n• 단순 수출입 통계 대신 '실제 부가가치 창출 위치' 추적이 무역정책 표준으로 자리잡는 신호",
+      "evidence_titles": [
+        "Trade in value-added - OECD"
+      ],
+      "evidence_sources": [
+        "OECD_News"
+      ],
+      "strength": 3,
+      "trend": "강화",
+      "suwon_implication": "수원시 제조기업의 글로벌 공급망 지위 재평가 필요. 단순 하청·조립 비중 높으면 부가가치 유출구조 노출 위험",
+      "is_structural": true,
+      "detected_date": "2026-04-27"
+    },
+    {
+      "signal_id": "sig_005",
+      "category": "민생충격패턴",
+      "title_ko": "비전염성질환 경제비용 가시화",
+      "description": "• OECD가 비전염성질환(NCD: 암·당뇨·심혈관질환)의 경제적 비용을 구조적 의제로 제기\n• 전쟁·경제충격 → 의료접근성 약화 → NCD 악화 → 노동생산성 저하의 악순환 구조 경고\n• 보건의료를 복지가 아닌 '경제생산성 유지 인프라'로 재정의하는 패러다임 전환",
+      "evidence_titles": [
+        "The Health and Economic Benefits of Tackling Non‑Communicable Diseases - OECD"
+      ],
+      "evidence_sources": [
+        "OECD_News"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 취약계층 만성질환 관리 소홀 시 중장기 사회비용 급증. 예방적 보건서비스 확대가 재정건전성 유지 핵심수단으로 부상",
+      "is_structural": true,
+      "detected_date": "2026-04-27",
+      "first_detected": "2026-04-27"
+    },
+    {
+      "signal_id": "sig_009",
+      "category": "무역공급망재편",
+      "title_ko": "FDI 평가기준 전환",
+      "description": "• OECD 'Assessing the Socio‑economic Impact of FDI' 보고서로 외국인직접투자 평가기준 재설정\n• 투자유치액 자체가 아닌 '사회경제적 파급효과' 중심 평가로 패러다임 전환\n• 전쟁·제재 속 '신뢰할 수 있는 투자자' 선별이 공급망 안정성 유지 핵심으로 부상",
+      "evidence_titles": [
+        "Assessing the Socio‑economic Impact of Foreign Direct Investment in Latin America and the Caribbean - OECD"
+      ],
+      "evidence_sources": [
+        "OECD_News"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 외투기업 유치 전략을 '투자액' 중심에서 '일자리 질·기술이전·공급망 안정기여' 중심으로 재설계 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-27",
+      "first_detected": "2026-04-27"
+    },
+    {
+      "signal_id": "sig_010",
+      "category": "민생충격패턴",
+      "title_ko": "교육격차 구조화 경고",
+      "description": "• OECD Teacher Knowledge Survey 및 PISA 2022 결과로 교육격차 심화 구조 가시화\n• 위기상황 → 교육투자 감소 → 역량격차 확대 → 세대간 불평등 고착화 경로 확인\n• 교육을 복지가 아닌 '장기 경제회복력 유지 인프라'로 재정의하는 신호",
+      "evidence_titles": [
+        "Results from the Teacher Knowledge Survey - OECD",
+        "PISA 2022 Results (Volume I) - OECD"
+      ],
+      "evidence_sources": [
+        "OECD_News",
+        "OECD_News"
+      ],
+      "strength": 3,
+      "trend": "강화",
+      "suwon_implication": "수원시 취약계층 아동 교육지원 축소 시 10년 후 사회비용 급증 불가피. 위기 속 교육투자 유지가 중장기 재정건전성 핵심",
+      "is_structural": true,
+      "detected_date": "2026-04-27"
+    }
+  ],
+  "by_category": {
+    "정책패러다임전환": 5,
+    "무역공급망재편": 2,
+    "민생충격패턴": 3
+  },
+  "summary_ko": "• OECD가 '안보경제' 개념을 공식화하며 경제정책과 안보정책의 경계 소멸 선언—에너지·식량·공급망을 안보 관점으로 통합 관리하는 패러다임 전환\n• 정책불확실성 자체가 글로벌 수요감소의 구조요인으로 부상—이란-미국 전쟁(2026) 등 지정학 리스크가 민간소비·투자 위축 직접 유발\n• 노동세 부담 지속 상승이 OECD 표준으로 자리잡으며 중산층 실질소득 감소 압박 구조화—재정압박 속 노동소득 과세 강화 추세 공식 확인\n• 녹색성장·디지털전환이 선택이 아닌 생존조건으로 전환—환경규제·디지털 인프라 안정성이 경제회복력 핵심요소로 재정의\n• 교육·보건을 복지가 아닌 '경제생산성 유지 인프라'로 재정의—위기 속 투자 축소 시 중장기 사회비용 급증 경로 구조적으로 확인",
+  "top_signal": "안보경제 개념 공식화",
+  "suwon_action": "수원시는 에너지·식량 비축 및 공급망 이중화를 위기대응이 아닌 평상시 필수 행정기능으로 즉시 재편해야 합니다. 동시에 '예측가능한 행정' 자체가 소상공인 매출안정의 핵심요소임을 인식하고 정책 일관성 확보에 집중해야 합니다.",
+  "weekly_trend": {
+    "정책패러다임전환": {
+      "count": 5,
+      "max_strength": 5
+    },
+    "민생충격패턴": {
+      "count": 3,
+      "max_strength": 4
+    },
+    "무역공급망재편": {
+      "count": 2,
+      "max_strength": 3
+    }
+  },
+  "generated_at": "2026-04-27T01:24:34.354458"
+}

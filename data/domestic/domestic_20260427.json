@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-27",
+  "collected_at": "2026-04-27T01:56:11.208574",
+  "oil_price": {
+    "source": "오피넷",
+    "collected_at": "2026-04-27T01:56:11.208777",
+    "wti_usd": 95.76
+  },
+  "exchange_rate": {
+    "source": "frankfurter.app",
+    "collected_at": "2026-04-27T01:56:11.812872",
+    "USD_KRW": 1477.04,
+    "EUR_KRW": 1729.9,
+    "date": "2026-04-24"
+  },
+  "cpi": {
+    "source": "통계청",
+    "collected_at": "2026-04-27T01:56:13.702548"
+  },
+  "gas_price": {
+    "source": "한국가스공사",
+    "collected_at": "2026-04-27T01:56:14.108215"
+  },
+  "gyeonggi_policy": []
+}

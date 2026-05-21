@@ -1,0 +1,146 @@
+{
+  "date": "2026-05-07",
+  "total_signals": 5,
+  "structural_signals": 5,
+  "signals": [
+    {
+      "signal_id": "sig_001",
+      "category": "에너지안보재편",
+      "title_ko": "전쟁발 에너지가격 4년최대 급등",
+      "description": "• 세계은행, 중동 전쟁으로 에너지 가격 4년 내 최대 폭등 경고\n• 국제기구가 가격 급등을 구조적 이슈로 공식 진단\n• 단기 수급 충격이 아닌 중장기 에너지 안보 위기 신호",
+      "evidence_titles": [
+        "Middle East War to Spark Biggest Energy Price Surge in Four Years"
+      ],
+      "evidence_sources": [
+        "WorldBank"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 난방비·전기료 장기 상승 압력 본격화, 취약계층 에너지 복지 예산 구조적 확대 필요",
+      "is_structural": true,
+      "detected_date": "2026-05-07",
+      "first_detected": "2026-05-07"
+    },
+    {
+      "signal_id": "sig_003",
+      "category": "민생충격패턴",
+      "title_ko": "물가·식량가격 상승 구조화",
+      "description": "• 세계은행 물가(Inflation, consumer prices) 및 식량가격 데이터허브 강조\n• 전쟁발 에너지·상품가격 상승이 소비자 물가, 특히 건강식단 비용에 구조적 충격\n• 국제기구가 식량·물가를 민생안정 최우선 모니터링 지표로 격상",
+      "evidence_titles": [
+        "Inflation, consumer prices (annual %)",
+        "Food Prices for Nutrition DataHub: global statistics on the Cost and Affordability of Healthy Diets",
+        "Commodity Markets"
+      ],
+      "evidence_sources": [
+        "WorldBank",
+        "WorldBank",
+        "WorldBank"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 취약계층 식료품비 부담 급증, 민생안정 긴급지원 및 물가 모니터링 체계 강화 시급",
+      "is_structural": true,
+      "detected_date": "2026-05-07",
+      "first_detected": "2026-05-07"
+    },
+    {
+      "signal_id": "sig_002",
+      "category": "무역공급망재편",
+      "title_ko": "글로벌 무역·일자리 구조 전환",
+      "description": "• 세계은행 국가별 성장·일자리 보고서 및 청년 서밋 '디지털 시대 일자리 설계' 주제화\n• 전쟁 충격이 무역 구조(Trade % of GDP 지표 주목)와 일자리 생태계 변화 촉발\n• 공급망 불안정이 국가·도시 일자리 정책 패러다임 전환 요구로 확대",
+      "evidence_titles": [
+        "Country Growth & Jobs Report",
+        "Youth Summit 2026: Future Works: Designing Jobs for the Digital Age",
+        "Trade (% of GDP) - World Bank Open Data"
+      ],
+      "evidence_sources": [
+        "WorldBank",
+        "WorldBank",
+        "WorldBank"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 제조업체 납품 비용 상승, 청년 일자리 정책을 디지털·공급망 탄력 중심으로 재설계 필요",
+      "is_structural": true,
+      "detected_date": "2026-05-07",
+      "first_detected": "2026-05-07"
+    },
+    {
+      "signal_id": "sig_004",
+      "category": "정책패러다임전환",
+      "title_ko": "개발·이주 정책 근본 재설계",
+      "description": "• 세계은행 '이주민·난민·사회' 2023 보고서 및 거버넌스 지표 업데이트\n• 전쟁이 촉발한 이주 확대가 각국 개발정책·사회통합 정책의 구조적 전환 요구\n• 국제기구가 이주·난민을 단기 인도지원이 아닌 장기 정책 설계 핵심 변수로 재정의",
+      "evidence_titles": [
+        "World Development Report 2023: Migrants, Refugees, and Societies",
+        "Home | Worldwide Governance Indicators"
+      ],
+      "evidence_sources": [
+        "WorldBank",
+        "WorldBank"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 외국인 근로자·다문화 정책을 단순 지원에서 사회통합·거버넌스 차원으로 격상 필요",
+      "is_structural": true,
+      "detected_date": "2026-05-07",
+      "first_detected": "2026-05-07"
+    },
+    {
+      "signal_id": "sig_005",
+      "category": "지역질서재편",
+      "title_ko": "국가별 성장률·무역 격차 확대",
+      "description": "• 세계은행 GDP 성장률, 1인당 GDP, 국가별 데이터 집중 공개\n• 전쟁 충격이 국가·지역별 경제 성과 격차를 구조적으로 확대시키는 신호\n• 글로벌 경제질서가 '수렴'에서 '분화·재편'으로 전환 조짐",
+      "evidence_titles": [
+        "GDP growth (annual %)",
+        "GDP per capita (current US$)",
+        "GDP (current US$)",
+        "Global Economic Prospects"
+      ],
+      "evidence_sources": [
+        "WorldBank",
+        "WorldBank",
+        "WorldBank",
+        "WorldBank"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 수출기업 타깃 시장 재설정, 국제협력 파트너 다변화 전략 필요",
+      "is_structural": true,
+      "detected_date": "2026-05-07",
+      "first_detected": "2026-05-07"
+    }
+  ],
+  "by_category": {
+    "에너지안보재편": 1,
+    "무역공급망재편": 1,
+    "민생충격패턴": 1,
+    "정책패러다임전환": 1,
+    "지역질서재편": 1
+  },
+  "summary_ko": "• 세계은행, 이란-미국 전쟁으로 에너지 가격 4년 최대 급등·물가·식량가격 구조적 상승 공식 경고\n• 전쟁 충격이 글로벌 무역·공급망·일자리 생태계 전환 촉발, 청년 서밋 '디지털 시대 일자리 설계' 주제화\n• 국제기구, 이주·난민을 단기 인도지원 아닌 장기 개발정책·사회통합 핵심 변수로 재정의\n• 국가별 GDP·무역 격차 확대, 글로벌 경제질서가 '수렴'에서 '분화·재편'으로 전환 조짐\n• 5대 구조 변화(에너지안보·공급망·민생물가·정책패러다임·지역질서) 동시 감지, 지방정부 대응 체계 전환 시급",
+  "top_signal": "전쟁발 에너지가격 4년최대 급등",
+  "suwon_action": "• 취약계층 난방비·식료품비 긴급지원 예산 즉시 확보, 에너지·물가 실시간 모니터링 체계 가동\n• 청년 일자리 정책을 디지털·공급망 탄력 중심으로 재설계, 제조업체 납품비용 상승 대응 긴급 간담회 소집",
+  "weekly_trend": {
+    "정책패러다임전환": {
+      "count": 10,
+      "max_strength": 4
+    },
+    "무역공급망재편": {
+      "count": 9,
+      "max_strength": 5
+    },
+    "에너지안보재편": {
+      "count": 4,
+      "max_strength": 4
+    },
+    "민생충격패턴": {
+      "count": 4,
+      "max_strength": 4
+    },
+    "지역질서재편": {
+      "count": 1,
+      "max_strength": 3
+    }
+  },
+  "generated_at": "2026-05-07T06:09:49.676343"
+}

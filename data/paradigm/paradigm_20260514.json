@@ -1,0 +1,190 @@
+{
+  "date": "2026-05-14",
+  "total_signals": 8,
+  "structural_signals": 8,
+  "signals": [
+    {
+      "signal_id": "sig_001",
+      "category": "정책패러다임전환",
+      "title_ko": "OECD 경제성장-웰빙 분리 측정 체계 도입",
+      "description": "• OECD가 GDP 성장과 별도로 '경제적 웰빙' 지표를 분기별로 발표하는 새로운 측정 체계 구축\n• 2025년 4분기 보고서를 통해 성장률이 아닌 실질소득·소비·자산 변화로 민생 실태 평가\n• 전통적 경제지표 중심 정책에서 시민 체감 웰빙 중심 정책 설계로의 국제적 기준 전환 신호",
+      "evidence_titles": [
+        "Growth and economic well-being: fourth quarter 2025 - OECD",
+        "OECD Well-being Data Monitor - OECD",
+        "Better Life Index - OECD"
+      ],
+      "evidence_sources": [
+        "OECD",
+        "OECD",
+        "OECD"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 시정 성과 측정 및 민생안정 정책 효과성 평가 기준을 GDP·생산 중심에서 시민 체감 웰빙 중심으로 재설계 필요. 전쟁 발발 시 경제성장률보다 실질소득·생활비 부담 변화를 우선 모니터링하는 체계 구축 시급",
+      "is_structural": true,
+      "detected_date": "2026-05-14",
+      "first_detected": "2026-05-14"
+    },
+    {
+      "signal_id": "sig_002",
+      "category": "민생충격패턴",
+      "title_ko": "팬데믹·에너지위기의 일상 소비 구조적 타격 확인",
+      "description": "• OECD가 유럽 소비자 대상으로 팬데믹과 에너지·식량 충격이 '일상 지출(everyday spending)'에 미친 영향을 실증 분석\n• 단기 물가상승이 아닌 식품·난방·교통비 등 필수 지출 구조가 영구적으로 변화한 패턴 포착\n• 향후 전쟁·에너지 위기 시 일반 가구의 필수 지출 부담이 구조적으로 증가하는 새로운 취약성 표준 모델 제시",
+      "evidence_titles": [
+        "What was the impact of the pandemic and energy‑food shocks on European consumers' \"everyday spending\"? - OECD"
+      ],
+      "evidence_sources": [
+        "OECD"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 취약계층 지원 정책을 단기 물가보조가 아닌 필수 지출 구조 변화 대응형으로 전환 필요. 이란-미국 전쟁 발발 시 난방비·교통비·식료품비의 장기 부담 증가를 가정한 3개월 이상 지속형 긴급 생계지원 체계 사전 설계 시급",
+      "is_structural": true,
+      "detected_date": "2026-05-14",
+      "first_detected": "2026-05-14"
+    },
+    {
+      "signal_id": "sig_003",
+      "category": "정책패러다임전환",
+      "title_ko": "에너지위기 대응 국가별 효율화 격차와 정책 공백 분석",
+      "description": "• OECD가 에너지위기 대응 각국 에너지효율화 정책 실행 수준과 정책 공백(gap) 실태를 체계적으로 분석한 보고서 발표\n• 단순 에너지 가격 보조가 아닌 건물·수송·산업 에너지효율 투자로의 정책 전환 속도가 국가별로 극명하게 차이 남을 확인\n• 향후 에너지위기 시 '가격 보조형 대응'에서 '효율 투자형 대응'으로의 정책 패러다임 전환이 국제 표준이 될 것임을 시사",
+      "evidence_titles": [
+        "The energy crisis and energy efficiency: What countries are doing to promote energy efficiency and where gaps remain - OECD"
+      ],
+      "evidence_sources": [
+        "OECD"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 에너지 민생대책을 난방비·전기료 직접 보조 중심에서 공공건물·저소득 가구 에너지효율 개선 투자로 전환하는 중기 계획 수립 필요. 전쟁 발발 시 단기 가격보조와 중기 효율투자를 동시 작동시키는 이중 정책체계 설계",
+      "is_structural": true,
+      "detected_date": "2026-05-14",
+      "first_detected": "2026-05-14"
+    },
+    {
+      "signal_id": "sig_005",
+      "category": "정책패러다임전환",
+      "title_ko": "정책 불확실성이 경제 수요 억제하는 새로운 성장 제약 요인화",
+      "description": "• OECD가 2025년 글로벌 경제전망 하향 조정 주요 원인으로 '정책 불확실성(policy uncertainty)'을 명시적으로 지목\n• 금리·물가가 아닌 정부 정책 예측 불가능성 자체가 기업 투자·가계 소비를 억제하는 독립 변수로 작동함을 확인\n• 이란-미국 전쟁 시 에너지·안보 정책 불확실성이 경제성장에 직접적 하방 압력으로 작용할 것임을 시사",
+      "evidence_titles": [
+        "Global economic outlook weakens as policy uncertainty weighs on demand - OECD"
+      ],
+      "evidence_sources": [
+        "OECD"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 경제정책 발표 및 집행의 예측가능성·일관성 강화가 민생안정의 핵심 요소로 부상. 전쟁 발발 시 시정 대응 방향을 조기에 명확히 하고 단계별 실행계획을 선제 공개하는 '불확실성 최소화 커뮤니케이션' 전략 필수",
+      "is_structural": true,
+      "detected_date": "2026-05-14",
+      "first_detected": "2026-05-14"
+    },
+    {
+      "signal_id": "sig_004",
+      "category": "무역공급망재편",
+      "title_ko": "62개국 투자정책 동시 변화와 보호주의 가속",
+      "description": "• OECD가 2025년 3월~2026년 3월 사이 62개국에서 발생한 투자정책 변화를 추적한 보고서에서 보호주의·안보 중심 투자 제한 조치 급증 확인\n• 기존 자유무역 기반 투자 유치 정책에서 전략산업·공급망 안보 중심 선별적 투자 허용 체제로의 글로벌 전환 가속\n• 이란-미국 전쟁 시 에너지·핵심광물 관련 투자정책이 안보 논리로 급격히 재편될 가능성 시사",
+      "evidence_titles": [
+        "Investment policy developments in 62 economies between 17 March 2025 and 1 March 2026 - OECD"
+      ],
+      "evidence_sources": [
+        "OECD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 소재 제조기업의 해외 원자재·부품 조달 안정성이 투자정책 변화로 위협받을 가능성 증가. 시 차원의 공급망 리스크 모니터링 체계 구축 및 중소기업 공급망 다변화 지원 정책 강화 필요",
+      "is_structural": true,
+      "detected_date": "2026-05-14",
+      "first_detected": "2026-05-14"
+    },
+    {
+      "signal_id": "sig_006",
+      "category": "정책패러다임전환",
+      "title_ko": "일본의 생산성·노동공급 중심 성장전략 전환",
+      "description": "• OECD가 일본에 대해 인구압력 대응을 위해 생산성 향상과 노동공급 확대를 동시에 추진하는 구조개혁 강력 권고\n• 기존 재정부양·금융완화 중심 성장정책에서 노동시장 유연화·여성·고령자 노동참여 확대로의 정책 전환 촉구\n• 저출산·고령화 심화 국가들의 표준 성장전략이 수요 부양에서 공급 역량 강화로 전환되고 있음을 시사",
+      "evidence_titles": [
+        "Japan needs to boost productivity and labour supply to address demographic pressures and strengthen growth - OECD",
+        "OECD Economic Surveys: Japan 2026 - OECD"
+      ],
+      "evidence_sources": [
+        "OECD",
+        "OECD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 경제정책도 단기 소비진작에서 중장기 생산성·노동참여 확대로 중심 이동 필요. 여성·고령자 일자리 창출, 중소기업 생산성 지원을 핵심 정책축으로 재편하는 중기계획 수립 시급",
+      "is_structural": true,
+      "detected_date": "2026-05-14",
+      "first_detected": "2026-05-14"
+    },
+    {
+      "signal_id": "sig_007",
+      "category": "민생충격패턴",
+      "title_ko": "비전염성 질병 대응의 경제적 편익 입증과 정책 우선순위 상승",
+      "description": "• OECD가 만성질환·생활습관병 등 비전염성 질병(NCD) 대응이 경제성장·재정건전성에 미치는 긍정적 효과를 실증 분석한 보고서 발표\n• 전쟁·에너지위기 등 외부 충격 시 의료비 부담 증가와 만성질환 악화가 가계 경제를 이중으로 타격하는 패턴 확인\n• 향후 위기 대응 정책에서 감염병뿐 아니라 만성질환 관리가 민생안정의 핵심 요소로 부상할 것임을 시사",
+      "evidence_titles": [
+        "The Health and Economic Benefits of Tackling Non‑Communicable Diseases - OECD",
+        "The Health and Economic Benefits of Tackling Non‑Communicable Diseases: Brazil - OECD"
+      ],
+      "evidence_sources": [
+        "OECD",
+        "OECD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 보건정책을 감염병 대응 중심에서 만성질환·생활습관병 예방·관리로 확대 필요. 전쟁 발발 시 에너지·식품 가격 상승으로 건강 취약계층의 만성질환 악화 방지를 위한 선제적 건강관리 지원체계 구축",
+      "is_structural": true,
+      "detected_date": "2026-05-14",
+      "first_detected": "2026-05-14"
+    },
+    {
+      "signal_id": "sig_008",
+      "category": "정책패러다임전환",
+      "title_ko": "뉴질랜드 에너지안보·자본시장 개혁 지속 강조",
+      "description": "• OECD가 뉴질랜드에 대해 에너지안보 강화와 자본시장 심화 개혁의 지속적 추진을 성장의 핵심 조건으로 강조\n• 단기 경기부양이 아닌 에너지 자립도 제고와 금융시장 구조개선이라는 중장기 구조개혁을 우선순위로 설정\n• 소규모 개방경제 국가들의 표준 정책이 단기 안정화에서 에너지·금융 구조 강화로 전환되고 있음을 시사",
+      "evidence_titles": [
+        "Sustaining momentum on reforms to strengthen energy security and deepen capital markets will be key to boost New Zealand's growth - OECD"
+      ],
+      "evidence_sources": [
+        "OECD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시도 단기 경기대응보다 에너지 자립도 제고(재생에너지·분산전원) 및 지역 금융·투자 생태계 강화를 중장기 정책 중심축으로 설정 필요. 전쟁 발발 시 단기 보조금보다 구조 강화형 대응이 더 효과적임을 시사",
+      "is_structural": true,
+      "detected_date": "2026-05-14",
+      "first_detected": "2026-05-14"
+    }
+  ],
+  "by_category": {
+    "정책패러다임전환": 5,
+    "민생충격패턴": 2,
+    "무역공급망재편": 1
+  },
+  "summary_ko": "• OECD가 GDP 중심 성장정책에서 시민 체감 웰빙·실질소득 중심 정책으로의 국제 표준 전환 신호 발표\n• 팬데믹·에너지위기 실증분석 결과 필수 지출 구조가 영구 변화하며 단기 물가보조로는 대응 불가능한 새로운 민생취약성 패턴 확인\n• 에너지위기 대응이 가격보조에서 효율투자로, 성장정책이 수요부양에서 생산성·노동공급 강화로 전환되는 정책 패러다임 대전환 진행 중\n• 62개국 투자정책 동시 변화로 자유무역 체제가 안보·공급망 중심 선별적 개방 체제로 급속 재편\n• 정책 불확실성 자체가 성장을 억제하는 독립변수로 작동하며, 만성질환 관리가 민생안정의 핵심 요소로 부상",
+  "top_signal": "OECD 경제성장-웰빙 분리 측정 체계 도입",
+  "suwon_action": "시정 성과 측정 기준을 성장률에서 시민 실질소득·생활비 부담 변화 중심으로 긴급 전환하고, 이란-미국 전쟁 발발 시 3개월 이상 지속형 필수 지출 지원체계 사전 설계 착수 필요",
+  "weekly_trend": {
+    "정책패러다임전환": {
+      "count": 12,
+      "max_strength": 5
+    },
+    "민생충격패턴": {
+      "count": 6,
+      "max_strength": 4
+    },
+    "무역공급망재편": {
+      "count": 4,
+      "max_strength": 4
+    },
+    "지역질서재편": {
+      "count": 1,
+      "max_strength": 3
+    },
+    "에너지안보재편": {
+      "count": 1,
+      "max_strength": 4
+    }
+  },
+  "generated_at": "2026-05-14T05:11:30.856601"
+}

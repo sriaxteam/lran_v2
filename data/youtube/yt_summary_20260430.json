@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-30",
+  "total": 1,
+  "summaries": [
+    {
+      "channel": "DW News",
+      "channel_key": "DW_News",
+      "credibility": 8.5,
+      "video_id": "U2iDNYtabmo",
+      "title": "Trump says Iran blockade will continue without nuclear deal | DW News",
+      "url": "https://www.youtube.com/watch?v=U2iDNYtabmo",
+      "published": "2026-04-29T23:02:26+00:00",
+      "summary_ko": "• 트럼프, 핵 합의 없이 이란 봉쇄 지속 경고 - 이란 항구 봉쇄 연장 준비 중\n• 이란은 2월 전쟁 발발 후 호르무즈 해협 봉쇄로 대응, 미국은 이란 항구 봉쇄로 보복\n• 이란 신제안은 전쟁 종료 후 핵 문제 논의 제안했으나 미국은 핵 문제 우선 해결 요구로 교착",
+      "key_points": [
+        "트럼프 행정부, 이란 항복 유도 위해 항구 봉쇄 연장 지시 - 이란 석유 수출 80%가 호르무즈 해협 통과",
+        "이란 내부 분열: 경제위기 우려 파벌 vs 미국 저항 지속 파벌 대립 - 전쟁·인터넷 차단으로 경제위기 심화",
+        "이란 혁명수비대 사령관 아흐메드 바히디는 핵 협상 반대 입장 견지",
+        "이란 신제안은 호르무즈 재개방-전쟁 종료 교환 프레임이나 트럼프 불만족"
+      ],
+      "iran_relevance": "높음",
+      "suwon_connection": "수원시민 생활비 상승 요인인 국제 에너지 가격이 호르무즈 해협 봉쇄로 급등 위험에 처해 있으며, 이란-미국 군사적 긴장 고조는 글로벌 공급망 불안으로 수원 제조업체 원자재 수급에 직접 영향 예상",
+      "collected_at": "2026-04-30T01:44:55.433927",
+      "data_type": "youtube"
+    }
+  ]
+}

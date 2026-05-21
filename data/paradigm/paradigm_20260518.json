@@ -1,0 +1,182 @@
+{
+  "date": "2026-05-18",
+  "total_signals": 8,
+  "structural_signals": 8,
+  "signals": [
+    {
+      "signal_id": "sig_001",
+      "category": "정책패러다임전환",
+      "title_ko": "IMF 전쟁경제 모니터링 체제화",
+      "description": "• IMF가 'Global Economy in the Shadow of War'(2026년 4월)라는 제목으로 전쟁을 경제전망의 중심축으로 설정\n• 정기 브리핑(5월 14일)에서 전쟁 영향 모니터링을 일상화·제도화\n• 전쟁이 일회성 위기가 아닌 구조적 경제환경 변수로 전환됨을 시사",
+      "evidence_titles": [
+        "World Economic Outlook, April 2026: Global Economy in the Shadow of War",
+        "Press Briefing Transcript: Julie Kozack, Director, Communications Department, May 14, 2026",
+        "How the War in the Middle East Is Affecting Energy, Trade, and Finance"
+      ],
+      "evidence_sources": [
+        "IMF",
+        "IMF",
+        "IMF"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 중기 재정계획 수립 시 '전쟁 리스크 상수화' 필요. 민생안정기금 규모를 단기 충격 대응이 아닌 중장기 구조적 불안 대응 방식으로 재설계 필요.",
+      "is_structural": true,
+      "detected_date": "2026-05-18",
+      "first_detected": "2026-05-18"
+    },
+    {
+      "signal_id": "sig_006",
+      "category": "정책패러다임전환",
+      "title_ko": "중앙은행 딜레마 연구 부상",
+      "description": "• IMF가 '공급충격 무시 vs 인플레 기대 통제' 중앙은행 딜레마 연구 발표\n• 전쟁으로 인한 공급충격이 통화정책 근본 원칙을 재검토하게 만드는 구조적 환경 조성\n• 기존 인플레 대응 매뉴얼이 전쟁 환경에서 작동하지 않을 가능성 제기",
+      "evidence_titles": [
+        "The Central Bank's Dilemma: Look Through Supply Shocks or Control Inflation Expectations?"
+      ],
+      "evidence_sources": [
+        "IMF"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 물가안정 대책이 중앙정부 통화정책 효과에만 의존할 수 없는 구조로 전환. 지자체 독자적 민생물가 안정 수단(예: 공공급식 확대, 직거래 장터) 강화 필요.",
+      "is_structural": true,
+      "detected_date": "2026-05-18",
+      "first_detected": "2026-05-18"
+    },
+    {
+      "signal_id": "sig_002",
+      "category": "민생충격패턴",
+      "title_ko": "AI 사이버공격 금융안정 위협 구조화",
+      "description": "• IMF가 AI 기반 사이버공격이 금융안정 리스크를 '증폭(Mount)'시키고 있다고 경고\n• 전쟁 중 사이버공격이 금융시스템 마비 가능성을 제기하며 새로운 전쟁 충격 경로 식별\n• 기존 물리적 전쟁 충격(에너지·무역)에서 디지털 충격 경로로 확장",
+      "evidence_titles": [
+        "Financial Stability Risks Mount as Artificial Intelligence Fuels Cyberattacks"
+      ],
+      "evidence_sources": [
+        "IMF"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 재난관리 체계에 '금융시스템 마비' 시나리오 추가 필요. 취약계층 긴급 현금지원 시스템의 비(非)디지털 백업체계 구축 검토 필요.",
+      "is_structural": true,
+      "detected_date": "2026-05-18",
+      "first_detected": "2026-05-18"
+    },
+    {
+      "signal_id": "sig_003",
+      "category": "무역공급망재편",
+      "title_ko": "IMF 초크포인트 모니터링 강화",
+      "description": "• IMF가 'chokepoint6' 등 해상 초크포인트 특화 모니터링 시스템 운영 징후(PortWatch)\n• 전쟁으로 인한 무역 차질을 실시간 추적하는 인프라 구축 시사\n• 무역 차질이 일시적 사건이 아닌 상시 모니터링 대상으로 전환",
+      "evidence_titles": [
+        "chokepoint6 - PortWatch",
+        "How the War in the Middle East Is Affecting Energy, Trade, and Finance"
+      ],
+      "evidence_sources": [
+        "IMF",
+        "IMF"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 소재 제조·수출 기업 지원 정책에 '공급망 대체루트 컨설팅' 항목 신설 필요. 중소기업 물류비 지원 제도를 단기 지원에서 중장기 구조조정 지원으로 전환 검토.",
+      "is_structural": true,
+      "detected_date": "2026-05-18",
+      "first_detected": "2026-05-18"
+    },
+    {
+      "signal_id": "sig_004",
+      "category": "정책패러다임전환",
+      "title_ko": "IMF 재정신뢰성 강조 패러다임",
+      "description": "• IMF가 그리스 사례를 통해 세정(Tax Administration)이 경제회복의 핵심임을 강조\n• 아프리카 대상 'Budget Credibility'(예산 신뢰성)를 경제성과의 앵커로 제시\n• 위기 시 재정건전성보다 '재정 실행력·신뢰성'이 우선순위로 부상",
+      "evidence_titles": [
+        "How Tax Administration Supported Greece's Economic Recovery",
+        "Budget Credibility as an Anchor for Better Economic Outcomes for Africa"
+      ],
+      "evidence_sources": [
+        "IMF",
+        "IMF"
+      ],
+      "strength": 3,
+      "trend": "강화",
+      "suwon_implication": "수원시 재정 운용의 투명성·예측가능성 강화가 시민신뢰 확보의 핵심 과제로 부상. 긴급 민생예산 집행의 신속성과 사후 공개 체계 강화 필요.",
+      "is_structural": true,
+      "detected_date": "2026-05-18"
+    },
+    {
+      "signal_id": "sig_005",
+      "category": "민생충격패턴",
+      "title_ko": "시스템 뱅킹위기 데이터 갱신",
+      "description": "• IMF가 1970-2025 시스템 뱅킹위기 데이터베이스를 2026년에 발간하며 최신 위기 패턴 분석\n• 전쟁이 금융위기 촉발 요인으로 새롭게 포함될 가능성 시사\n• 민생 충격이 금융시스템 경로로 증폭되는 구조적 패턴 연구 강화",
+      "evidence_titles": [
+        "IMF Working Papers Volume 2026 Issue 094: Systemic Banking Crises Database: 1970-2025 (2026)",
+        "Systemic Banking Crises Database: 1970-2025"
+      ],
+      "evidence_sources": [
+        "IMF",
+        "IMF"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 취약계층 금융지원(예: 소액대출, 긴급생계비) 프로그램을 금융시스템 불안 시나리오와 연계하여 설계 필요. 지역 금융기관과 비상 협력체계 구축 검토.",
+      "is_structural": true,
+      "detected_date": "2026-05-18",
+      "first_detected": "2026-05-18"
+    },
+    {
+      "signal_id": "sig_007",
+      "category": "무역공급망재편",
+      "title_ko": "IMF 무역통계 파트너국별 추적",
+      "description": "• IMF가 'International Trade in Goods (by partner country)' 데이터 세밀화\n• 전쟁으로 특정 국가 간 무역 흐름이 차단되거나 우회되는 패턴을 국가별로 추적\n• 무역 재편이 양자(bilateral) 수준에서 구조화되고 있음을 시사",
+      "evidence_titles": [
+        "International Trade in Goods (by partner country) (IMTS)"
+      ],
+      "evidence_sources": [
+        "IMF"
+      ],
+      "strength": 3,
+      "trend": "강화",
+      "suwon_implication": "수원시 기업이 의존하는 주요 수입국·수출국 변동 모니터링 체계 필요. 시 산하 경제진흥원에서 기업별 '무역파트너 다변화 컨설팅' 서비스 신설 검토.",
+      "is_structural": true,
+      "detected_date": "2026-05-18"
+    },
+    {
+      "signal_id": "sig_008",
+      "category": "정책패러다임전환",
+      "title_ko": "고빈도 지표 GDP 나우캐스팅",
+      "description": "• IMF가 안도라 사례를 통해 고빈도 지표 기반 실시간 GDP 추정(nowcasting) 방법론 제시\n• 전쟁으로 경제 변동성이 커지면서 분기별 통계가 아닌 실시간 모니터링 필요성 대두\n• 정책 대응 속도를 높이기 위한 데이터 인프라 전환 신호",
+      "evidence_titles": [
+        "High-Frequency Indicators and GDP Nowcasting in Andorra"
+      ],
+      "evidence_sources": [
+        "IMF"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 경제동향 모니터링을 월별·분기별에서 주별·일별 고빈도 지표(예: 카드매출, 전력소비) 기반으로 전환 필요. 긴급 민생대책 발동 기준을 실시간 지표와 연동.",
+      "is_structural": true,
+      "detected_date": "2026-05-18",
+      "first_detected": "2026-05-18"
+    }
+  ],
+  "by_category": {
+    "정책패러다임전환": 4,
+    "민생충격패턴": 2,
+    "무역공급망재편": 2
+  },
+  "summary_ko": "• IMF가 전쟁을 일회성 위기가 아닌 경제전망의 '구조적 변수'로 제도화하며 모니터링 체계 전환\n• AI 사이버공격이 금융안정 위협으로 부상하며 전쟁 충격 경로가 물리적 차원에서 디지털 차원으로 확장\n• 해상 초크포인트·파트너국별 무역통계 등 공급망 재편을 실시간 추적하는 인프라 구축 신호 포착\n• 전쟁 중 공급충격 대응 딜레마로 중앙은행 통화정책 원칙 재검토 국면 진입, 지자체 독자 민생안정 수단 필요성 대두\n• 고빈도 지표 기반 실시간 경제 모니터링과 재정신뢰성 강조로 정책 대응 속도·투명성이 새로운 경쟁력 기준으로 부상",
+  "top_signal": "IMF 전쟁경제 모니터링 체제화",
+  "suwon_action": "• 수원시 중기재정계획을 '전쟁 리스크 상수화' 전제로 전면 재설계, 민생안정기금을 단기 충격 대응에서 중장기 구조적 불안 대응 방식으로 전환\n• 긴급 민생대책 발동 기준을 카드매출·전력소비 등 실시간 고빈도 지표와 연동하고, 금융시스템 마비 시나리오 대비 비디지털 백업체계 즉시 구축 착수",
+  "weekly_trend": {
+    "정책패러다임전환": {
+      "count": 14,
+      "max_strength": 5
+    },
+    "민생충격패턴": {
+      "count": 6,
+      "max_strength": 4
+    },
+    "무역공급망재편": {
+      "count": 4,
+      "max_strength": 4
+    }
+  },
+  "generated_at": "2026-05-18T05:12:26.962501"
+}

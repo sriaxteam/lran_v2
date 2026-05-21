@@ -1,0 +1,69 @@
+{
+  "date": "2026-04-28",
+  "total": 3,
+  "summaries": [
+    {
+      "channel": "DW News",
+      "channel_key": "dwnews",
+      "credibility": 8.5,
+      "video_id": "fvP38JxcciY",
+      "title": "Iran peace proposal fails to impress Trump as Hormuz standoff enters ninth week | DW News",
+      "url": "https://www.youtube.com/watch?v=fvP38JxcciY",
+      "published": "",
+      "summary_ko": "• 미국-이란 정전 3주차, 호르무즈 해협 봉쇄는 9주째 지속\n• 이란의 평화 제안에도 트럼프는 핵 프로그램 협상 우선 요구\n• 해협 봉쇄로 글로벌 공급망 혼란, 정상화는 9월 이후 전망",
+      "key_points": [
+        "호르무즈 해협 봉쇄 9주째: 정전 협정에도 탱커 대기 행렬 계속, 석유 수출 차질",
+        "이란 평화 제안 거부: 트럼프, 해협 재개방 선행 후 핵협상 방식 반대",
+        "마르코 루비오 국무장관: 이란 봉쇄를 '경제적 핵무기'로 규정",
+        "전문가 분석: 호르무즈 봉쇄가 이란의 최대 협상카드, 핵 프로그램보다 중요",
+        "카타르 경고: '동결된 분쟁'으로 전환 우려, 지속 가능한 해법 촉구",
+        "선박 중개업체 BRS: 정상화까지 최소 9월까지 소요 예상"
+      ],
+      "iran_relevance": "높음",
+      "suwon_connection": "호르무즈 해협 봉쇄로 국제 유가 상승 시 수원시민 생활비(난방비, 유류비, 물가) 직접 타격. 글로벌 공급망 차질은 수원 소재 제조업체 원자재 수급 및 수출입 물류 비용 증가로 이어져 지역 경제와 고용에 영향",
+      "collected_at": "2026-04-29T02:37:11.244762",
+      "data_type": "youtube"
+    },
+    {
+      "channel": "DW News",
+      "channel_key": "dwnews",
+      "credibility": 8.5,
+      "video_id": "zfm5qtTIKBc",
+      "title": "Iran’s foreign minister in Moscow after US talks collapse",
+      "url": "https://www.youtube.com/watch?v=zfm5qtTIKBc",
+      "published": "",
+      "summary_ko": "• 이란 외무장관 아라그치가 미국과의 협상 결렬 후 모스크바 방문, 푸틴과 전략적 동반자 관계 재확인\n• 이란은 우크라이나 전쟁에서 러시아에 드론·무기 지원했으나, 미국의 이란 공격 시 러시아의 군사지원은 제한적\n• 러시아는 이란 핵무장보다 미-이란 관계 개선을 더 우려하며, 미-이란 갈등 지속이 러시아에 경제적·전략적 이익",
+      "key_points": [
+        "이란-러시아 전략적 동반자 관계는 비대칭적이며 러시아의 직접 군사지원은 제한적, 표적정보 제공 수준",
+        "미-이란 갈등 지속으로 러시아는 유가 상승과 우크라이나 전쟁에 대한 미국 관심 분산 효과 획득",
+        "러시아는 이란 핵무장보다 미-이란 관계정상화를 최악 시나리오로 간주, 이란의 대러 의존도 감소 우려",
+        "냉전시대 팔레비 왕정 사례처럼 친미 이란은 러시아와도 관계 유지 가능하나 러시아는 검증 회피"
+      ],
+      "iran_relevance": "높음",
+      "suwon_connection": "국제 유가 변동은 수원시민 생활물가(교통비, 난방비)에 직접 영향을 미치며, 중동 지정학 긴장은 글로벌 공급망 교란으로 수원 소재 제조·물류업체에 리스크 요인",
+      "collected_at": "2026-04-29T02:37:33.133166",
+      "data_type": "youtube"
+    },
+    {
+      "channel": "DW News",
+      "channel_key": "dwnews",
+      "credibility": 8.5,
+      "video_id": "0ghOC6Am3qw",
+      "title": "German chancellor says US has ‘no strategy’ in Iran | DW News",
+      "url": "https://www.youtube.com/watch?v=0ghOC6Am3qw",
+      "published": "",
+      "summary_ko": "• 독일 메르츠 총리, 미국의 이란 전략 부재를 강하게 비판하며 '전략이 없다'고 공개 발언\n• 이란이 협상을 교묘히 회피하며 미국을 굴욕적 상황으로 몰아가고 있다고 평가\n• 독일 내 경제적 타격 우려로 미국과 거리두기 시작, 에너지 가격 상승과 물가 인플레이션 현실화",
+      "key_points": [
+        "메르츠 총리, 미국의 이란 분쟁 전략 부재를 공개 비판하며 '출구전략 없음' 지적",
+        "이란 혁명수비대가 협상 거부로 미국을 전략적으로 굴욕시키고 있다고 분석",
+        "독일, 이란 사태로 인한 에너지 가격 급등과 식량안보 위기 우려",
+        "메르츠, 이스라엘과 미국이 '며칠이면 끝날 것'이라던 약속에 환멸감 표명",
+        "유럽 독자적 평화 해결책 모색 시사, 트럼프 노선과 거리두기 전략"
+      ],
+      "iran_relevance": "높음",
+      "suwon_connection": "수원시민들도 국제 에너지 가격 상승으로 인한 유류비·물가 인상 직격탄 예상. 특히 여름 항공유 부족 가능성으로 해외여행 계획 차질 우려. 글로벌 식량안보 위기는 수원 지역 농산물 가격에도 연쇄 영향 가능.",
+      "collected_at": "2026-04-29T02:37:52.741097",
+      "data_type": "youtube"
+    }
+  ]
+}

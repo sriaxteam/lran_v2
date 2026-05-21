@@ -1,0 +1,6 @@
+{
+  "date": "2026-04-17",
+  "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca8nj7BXthZSTz2fshYSY'}",
+  "generated_at": "2026-04-17T05:26:54.107751",
+  "articles_analyzed": 60
+}

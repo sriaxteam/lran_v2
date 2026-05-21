@@ -1,0 +1,35 @@
+{
+  "date": "2026-05-19",
+  "collected_at": "2026-05-19T06:30:30.419748",
+  "oil_price": {
+    "source": "오피넷",
+    "collected_at": "2026-05-19T06:30:30.419758",
+    "gasoline_national": 2011.22,
+    "gasoline_source": "GlobalPetrolPrices",
+    "wti_usd": 102.98,
+    "brent_usd": 109.9,
+    "dubai_usd": 107.3,
+    "dubai_source": "오피넷",
+    "rbob_usd_gal": 3.5657
+  },
+  "exchange_rate": {
+    "source": "frankfurter.app",
+    "collected_at": "2026-05-19T06:30:37.812592",
+    "USD_KRW": 1497.8,
+    "EUR_KRW": 1744.63,
+    "date": "2026-05-18"
+  },
+  "cpi": {
+    "source": "통계청(fallback)",
+    "collected_at": "2026-05-19T06:30:38.383163",
+    "cpi_yoy_pct": 2.1,
+    "note": "전년동월비 +2.1% (통계청 2026.04 공표, 자동수집 실패 시 적용)",
+    "period_current": "202604"
+  },
+  "gas_price": {
+    "source": "한국가스공사",
+    "collected_at": "2026-05-19T06:30:39.079066",
+    "error": "HTTPSConnectionPool(host='www.kogas.or.kr', port=443): Max retries exceeded with url: /portal/contents.do?key=2176 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.kogas.or.kr', port=443) at 0x7f2b3c798290>, 'Connection to www.kogas.or.kr timed out. (connect timeout=10)'))"
+  },
+  "gyeonggi_policy": []
+}

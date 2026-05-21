@@ -1,0 +1,18 @@
+{
+  "date": "2026-04-17",
+  "collected_at": "2026-04-17T05:25:47.702145",
+  "oil_price": {
+    "source": "오피넷",
+    "collected_at": "2026-04-17T05:25:47.702153",
+    "error": "HTTPSConnectionPool(host='www.opinet.or.kr', port=443): Max retries exceeded with url: /api/avgAllPrice.do?code=F202209161&out=json (Caused by NameResolutionError(\"HTTPSConnection(host='www.opinet.or.kr', port=443): Failed to resolve 'www.opinet.or.kr' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  "cpi": {
+    "source": "통계청",
+    "collected_at": "2026-04-17T05:25:47.730532"
+  },
+  "gas_price": {
+    "source": "한국가스공사",
+    "collected_at": "2026-04-17T05:25:49.657329"
+  },
+  "gyeonggi_policy": []
+}

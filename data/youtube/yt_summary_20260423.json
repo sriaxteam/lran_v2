@@ -1,0 +1,106 @@
+{
+  "date": "2026-04-23",
+  "total": 5,
+  "summaries": [
+    {
+      "channel": "Al Jazeera English",
+      "channel_id": "UCNye-wNBqNL5ZzHSJdde38g",
+      "video_id": "mock_aj_001",
+      "title": "Iran-US tensions: What a Hormuz blockade would mean for global energy",
+      "title_ko": "이란-미국 긴장: 호르무즈 봉쇄가 세계 에너지에 미치는 영향",
+      "url": "https://www.youtube.com/watch?v=mock_aj_001",
+      "published": "2026-04-20T05:30:00Z",
+      "duration": "18:42",
+      "view_count": 487000,
+      "summary_ko": "• 이란 IRGC가 카타르 LNG 터미널 인근 해역에서 대규모 군사훈련을 개시, 호르무즈 봉쇄 현실화 경보\n• 전문가 패널: 봉쇄 지속 3개월 시 아시아 LNG 현물가 배럴당 40% 추가 상승 불가피\n• 한국·일본 등 LNG 수입 의존국 에너지 비상계획 즉각 가동 필요성 강조",
+      "key_points": [
+        "IRGC 카타르 LNG 터미널 인근 군사훈련 개시",
+        "봉쇄 3개월 시 아시아 LNG 가격 40% 추가 상승 전망",
+        "한국·일본 에너지 비상계획 즉각 가동 촉구"
+      ],
+      "expert_name": "Dr. Ahmad Karimi (에너지 안보 전문가)",
+      "credibility": 8.0,
+      "relevance_score": 9.2
+    },
+    {
+      "channel": "DW News",
+      "channel_id": "UCknLrEdhRCp1aegoMqRaCZg",
+      "video_id": "mock_dw_001",
+      "title": "Iran war impact on global supply chains: South Korea & Japan most at risk",
+      "title_ko": "이란전쟁의 글로벌 공급망 충격: 한국·일본이 가장 취약",
+      "url": "https://www.youtube.com/watch?v=mock_dw_001",
+      "published": "2026-04-20T06:15:00Z",
+      "duration": "12:18",
+      "view_count": 312000,
+      "summary_ko": "• 이란전쟁으로 인한 중동발 부품·소재 납기 지연이 한국 반도체·자동차 공급망에 직접 타격\n• 삼성전자·SK하이닉스 협력사 생산 일정 조정 불가피 — 3분기 정상화 목표 달성 불투명\n• IMF, 한국 2026년 성장률 1.7%로 추가 하향 가능성 경고 — 수원 제조업 직접 영향권",
+      "key_points": [
+        "한국 반도체 공급망 납기 지연 현실화",
+        "삼성전자 협력사 3분기 정상화 목표 불투명",
+        "IMF 한국 성장률 추가 하향 가능성 경고"
+      ],
+      "expert_name": "Maria Schmidt (DW 경제 에디터)",
+      "credibility": 8.5,
+      "relevance_score": 9.5
+    },
+    {
+      "channel": "연합뉴스TV",
+      "channel_id": "UCdMwBVUiS5QKVzJIbimlUeQ",
+      "video_id": "mock_yt_001",
+      "title": "[긴급] 도시가스 2분기 추가 인상 확정 — 소상공인 연쇄 충격",
+      "title_ko": "[긴급] 도시가스 2분기 추가 인상 확정 — 소상공인 연쇄 충격",
+      "url": "https://www.youtube.com/watch?v=mock_yt_001",
+      "published": "2026-04-20T07:00:00Z",
+      "duration": "8:55",
+      "view_count": 198000,
+      "summary_ko": "• 산업부, 2분기 도시가스 요금 6.2% 추가 인상 공식 확정 — 음식점·세탁소 등 에너지 다소비 업종 직격\n• 수원시 소상공인 월평균 에너지비 전년 대비 28% 상승, 배달업 유류비 월 34만→46만 원 급등\n• 경기도 긴급 융자 확대 시행 중이나 신청 절차 복잡해 실질 수혜율 저조 — 간소화 시급",
+      "key_points": [
+        "도시가스 요금 6.2% 2분기 추가 인상 확정",
+        "수원시 소상공인 에너지비 전년比 28% 상승",
+        "경기도 긴급융자 수혜율 저조 — 절차 간소화 촉구"
+      ],
+      "expert_name": "김태현 (에너지경제연구원 연구위원)",
+      "credibility": 8.0,
+      "relevance_score": 9.8
+    },
+    {
+      "channel": "Al Jazeera English",
+      "channel_id": "UCNye-wNBqNL5ZzHSJdde38g",
+      "video_id": "mock_aj_002",
+      "title": "IRGC military drill near Qatar LNG terminal: What happens next?",
+      "title_ko": "IRGC의 카타르 LNG 터미널 인근 훈련: 다음 단계는?",
+      "url": "https://www.youtube.com/watch?v=mock_aj_002",
+      "published": "2026-04-20T04:00:00Z",
+      "duration": "22:07",
+      "view_count": 621000,
+      "summary_ko": "• 이란 혁명수비대(IRGC) 카타르 LNG 터미널 12해리 내 군사기동훈련 — 사실상 봉쇄 위협 신호\n• 미 해군 5함대 긴급 대응 태세 격상, 호르무즈 해협 통과 선박 에스코트 작전 강화\n• 전문가: 협상 재개 없이 훈련 지속 시 2주 내 봉쇄 현실화 가능성 35~40%",
+      "key_points": [
+        "IRGC 카타르 LNG 터미널 12해리 내 군사훈련",
+        "미 해군 5함대 대응 태세 격상",
+        "봉쇄 현실화 가능성 2주 내 35~40% 추정"
+      ],
+      "expert_name": "Reza Marashi (National Iranian American Council)",
+      "credibility": 8.0,
+      "relevance_score": 9.0
+    },
+    {
+      "channel": "DW News",
+      "channel_id": "UCknLrEdhRCp1aegoMqRaCZg",
+      "video_id": "mock_dw_002",
+      "title": "Energy crisis response: How cities in Asia are protecting vulnerable residents",
+      "title_ko": "에너지 위기 대응: 아시아 도시들의 취약계층 보호 전략",
+      "url": "https://www.youtube.com/watch?v=mock_dw_002",
+      "published": "2026-04-20T08:30:00Z",
+      "duration": "15:33",
+      "view_count": 156000,
+      "summary_ko": "• 일본 지자체, 에너지 비상비축 120일분 + 취약계층 자동 지원 시스템 운영 — 별도 신청 없이 자동 지급\n• 서울시 에너지 취약가구 전기·가스 30% 상한 지원 모델, 아시아 도시 중 가장 앞선 사례로 소개\n• 전문가: 에너지 취약계층 직접 바우처 지급이 감면 방식 대비 수혜율 2.3배 — 수원시 즉시 적용 권고",
+      "key_points": [
+        "일본 지자체 취약계층 에너지 자동 지원 시스템 운영",
+        "서울시 전기·가스 30% 상한 지원 아시아 선진 사례",
+        "직접 바우처가 감면 방식보다 수혜율 2.3배 높음"
+      ],
+      "expert_name": "Prof. Yuki Tanaka (도쿄대 도시정책연구소)",
+      "credibility": 8.5,
+      "relevance_score": 8.7
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "date": "2026-05-11",
+  "total": 2,
+  "summaries": [
+    {
+      "channel": "Al Jazeera English",
+      "channel_key": "AlJazeera_EN",
+      "credibility": 8.0,
+      "video_id": "Es2O00yjGDE",
+      "title": "Hezbollah FPV drone attacks pressure Israeli forces in Lebanon",
+      "url": "https://www.youtube.com/watch?v=Es2O00yjGDE",
+      "published": "2026-05-11T04:42:54+00:00",
+      "summary_ko": "• 헤즈볼라가 레바논에서 FPV 드론을 이용해 이스라엘군 공격\n• 드론 공격으로 이스라엘군에 대한 군사적 압박 증가\n• 이란 지원 무장단체의 비대칭 전술 활용 사례",
+      "key_points": [
+        "헤즈볼라의 FPV(1인칭 시점) 드론 공격 전술",
+        "레바논 내 이스라엘군 대상 작전",
+        "이란 지원 세력의 드론 전력 활용"
+      ],
+      "iran_relevance": "높음",
+      "suwon_connection": "수원시 방위산업체들의 대(對)드론 방어체계 수출 기회 확대 가능성, 민간 드론 규제 및 안전관리 정책 참고 사례",
+      "collected_at": "2026-05-11T07:58:12.047753",
+      "data_type": "youtube"
+    },
+    {
+      "channel": "연합뉴스TV",
+      "channel_key": "Yonhap_TV",
+      "credibility": 8.0,
+      "video_id": "ZHnEiMWhIAw",
+      "title": "[🔴속보] 나무호 '군사적 공격' 공식 인정…호르무즈에 묶인 한국 선박 26척·선원 안전 '초비상'/ 연합뉴스TV(YonhapnewsTV)",
+      "url": "https://www.youtube.com/watch?v=ZHnEiMWhIAw",
+      "published": "2026-05-11T05:11:51+00:00",
+      "summary_ko": "• 나무호가 군사적 공격을 받았다는 사실이 공식 인정됨\n• 호르무즈 해협 일대에 한국 선박 26척이 억류되어 있는 상황\n• 선원들의 안전이 초비상 상태로 긴급 대응 필요",
+      "key_points": [
+        "나무호 군사적 공격 공식 인정",
+        "호르무즈 해협에 한국 선박 26척 억류",
+        "한국 선원 안전 문제 심각한 위기 상황",
+        "중동 해상 안보 위협 고조"
+      ],
+      "iran_relevance": "높음",
+      "suwon_connection": "수원시민 중 해운업 종사자 및 선원 가족의 안전 우려, 국제 유가 상승으로 인한 수원 지역 물가 및 민생경제 영향 예상, 중동 정세 불안에 따른 수원 수출기업 물류 차질 가능성",
+      "collected_at": "2026-05-11T07:58:27.022391",
+      "data_type": "youtube"
+    }
+  ]
+}

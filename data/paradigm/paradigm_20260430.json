@@ -1,0 +1,233 @@
+{
+  "date": "2026-04-30",
+  "total_signals": 10,
+  "structural_signals": 10,
+  "signals": [
+    {
+      "signal_id": "sig_002",
+      "category": "무역공급망재편",
+      "title_ko": "해상 차단점 중심 무역 구조 재편",
+      "description": "• UNCTAD가 2024년부터 해상 chokepoint(호르무즈, 말라카 등)를 중심으로 해운 보고서 구조 전면 개편\n• '글로벌 무역 = 차단점 통과 여부'라는 새로운 무역 지리학 패러다임 확립\n• 2025년 보고서가 '격랑 속 항로 유지(Staying the course in turbulent waters)'를 주제로 차단점 위험 상시화 선언",
+      "evidence_titles": [
+        "Review of Maritime Transport 2024 | Navigating maritime chokepoints",
+        "Review of Maritime Transport 2025: Staying the course in turbulent waters",
+        "Supply chains, the geography of trade and maritime logistics"
+      ],
+      "evidence_sources": [
+        "UNCTAD",
+        "UNCTAD",
+        "UNCTAD"
+      ],
+      "strength": 5,
+      "trend": "신규",
+      "suwon_implication": "수원시 수출기업 물류 비용 구조의 장기 불안정성 전제. 내수 중심 기업 육성 정책 검토 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-30",
+      "first_detected": "2026-04-30"
+    },
+    {
+      "signal_id": "sig_001",
+      "category": "무역공급망재편",
+      "title_ko": "호르무즈 차단의 실시간 모니터링 체계 정착",
+      "description": "• UNCTAD가 호르무즈 해협 차단 영향을 추적하는 전용 대시보드를 구축\n• 글로벌 해운·에너지·식량·금융을 실시간 모니터링하는 조기경보 시스템 시대 개막\n• 무역 차단점(chokepoint) 중심의 위기 관리가 국제 무역 정책의 새로운 표준으로 자리잡는 신호",
+      "evidence_titles": [
+        "Hormuz disruption shows why early-warning data matters",
+        "Strait of Hormuz dashboard – tracking the impact on global shipping, energy, food and finance",
+        "As trade routes shift, transparency tools move to the frontline of global commerce"
+      ],
+      "evidence_sources": [
+        "UNCTAD",
+        "UNCTAD",
+        "UNCTAD"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 제조기업의 원자재 공급망 모니터링 필요성 증대. 시 차원의 공급망 조기경보 체계 검토 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-30",
+      "first_detected": "2026-04-30"
+    },
+    {
+      "signal_id": "sig_003",
+      "category": "민생충격패턴",
+      "title_ko": "호르무즈 차단이 성장·금융에 구조적 타격",
+      "description": "• UNCTAD가 호르무즈 차단이 '무역·가격·금융 전반에 경제적 긴장 심화(deepens global economic strain)'라고 공식 경고\n• 단순 에너지 가격 상승을 넘어 성장률 하락, 금융 불안정, 식량 위기가 동시 진행되는 복합 충격 패턴 확인\n• '차단 → 민생 직격탄'의 인과관계가 국제기구 차원에서 공식 인정됨",
+      "evidence_titles": [
+        "Hormuz disruption deepens global economic strain across trade, prices and finance",
+        "Strait of Hormuz disruptions: Growth and financial implications"
+      ],
+      "evidence_sources": [
+        "UNCTAD",
+        "UNCTAD"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 취약계층 물가·난방비 지원 예산 증액 필요. 복합 민생 위기 대응 매뉴얼 사전 정비 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-30",
+      "first_detected": "2026-04-30"
+    },
+    {
+      "signal_id": "sig_008",
+      "category": "무역공급망재편",
+      "title_ko": "글로벌 무역 성장 지속, 취약성은 상승",
+      "description": "• UNCTAD의 2026년 4월 무역 업데이트가 '무역 성장은 지속되지만 취약성(fragility)은 증가'라는 모순적 진단 제시\n• 무역량 증가와 무역 안정성 감소가 동시에 진행되는 새로운 무역 질서 출현\n• '성장하지만 취약한' 무역 구조가 상시화되는 패러다임 전환 신호",
+      "evidence_titles": [
+        "Global Trade Update (April 2026): Global trade growth continues, but fragility rises"
+      ],
+      "evidence_sources": [
+        "UNCTAD"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 기업 지원 정책에서 '무역 증가=안정'이라는 전제 폐기 필요. 취약성 관리 중심 지원 체계 구축 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-30",
+      "first_detected": "2026-04-30"
+    },
+    {
+      "signal_id": "sig_004",
+      "category": "정책패러다임전환",
+      "title_ko": "무역 투명성이 무역 정책의 최전선으로 부상",
+      "description": "• UNCTAD가 '무역 경로 변화에 따라 투명성 도구가 글로벌 상거래의 최전선(frontline)으로 이동'한다고 선언\n• 기존 관세·FTA 중심 무역 정책에서 '실시간 데이터·투명성·조기경보' 중심 정책으로 무게 중심 이동\n• 중남미가 디지털 도구로 국경을 스마트화하는 사례가 새로운 무역 정책 표준으로 제시됨",
+      "evidence_titles": [
+        "As trade routes shift, transparency tools move to the frontline of global commerce",
+        "Central America set to roll out digital tool to make trade faster and borders smarter"
+      ],
+      "evidence_sources": [
+        "UNCTAD",
+        "UNCTAD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 중소기업 무역 지원 정책을 디지털 투명성 도구 중심으로 재설계 필요. 관세보다 데이터가 중요해지는 시대 대비",
+      "is_structural": true,
+      "detected_date": "2026-04-30",
+      "first_detected": "2026-04-30"
+    },
+    {
+      "signal_id": "sig_005",
+      "category": "에너지안보재편",
+      "title_ko": "석유 충격이 플라스틱 산업 전환 장벽으로 작동",
+      "description": "• UNCTAD가 '석유 충격이 플라스틱 산업에 파급되지만, 무역 장벽이 친환경 대체재 확산을 막고 있다'고 분석\n• 전통적 '고유가 → 대체재 촉진' 공식이 무너지고, 무역 장벽이 에너지 전환을 지연시키는 구조적 역설 확인\n• 에너지 위기가 환경 전환을 오히려 늦추는 새로운 패턴 출현",
+      "evidence_titles": [
+        "Oil shocks ripple through plastics, but trade barriers hold back their greener alternatives"
+      ],
+      "evidence_sources": [
+        "UNCTAD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 친환경 제조업 육성 정책이 국제 무역 장벽에 막힐 수 있음. 내수 중심 친환경 산업 생태계 구축 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-30",
+      "first_detected": "2026-04-30"
+    },
+    {
+      "signal_id": "sig_006",
+      "category": "무역공급망재편",
+      "title_ko": "항만 탈탄소화가 무역 혼란 속 가속",
+      "description": "• UNCTAD가 '글로벌 무역이 새로운 혼란에 직면한 가운데 항만들이 배출 감축 경쟁(race to cut emissions)'에 돌입했다고 분석\n• 위기 속에서도 환경 규제가 후퇴하지 않고 오히려 항만 인프라 전환 압력으로 작동하는 역설적 패턴\n• 무역 혼란이 단기 대응이 아닌 장기 구조 전환의 계기로 활용되는 정책 전환 신호",
+      "evidence_titles": [
+        "Ports race to cut emissions as global trade faces new disruptions"
+      ],
+      "evidence_sources": [
+        "UNCTAD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 물류 거점 정책에서도 단기 효율보다 장기 탄소중립 기준 적용 필요. 위기를 구조 전환 기회로 활용하는 정책 벤치마킹 가능",
+      "is_structural": true,
+      "detected_date": "2026-04-30",
+      "first_detected": "2026-04-30"
+    },
+    {
+      "signal_id": "sig_007",
+      "category": "정책패러다임전환",
+      "title_ko": "GDP 넘어선 경제 측정 동맹 출범",
+      "description": "• UNCTAD가 'Beyond GDP Global Alliance' 첫 총회를 개최하며 GDP 초월 경제 측정 체계 구축 본격화\n• 경제 변환(transformation)을 추동하는 요인과 격차를 새로운 데이터로 측정하는 국제 체계 출범\n• 전쟁·위기 속에서도 경제 평가 기준 자체를 바꾸는 구조적 전환 추진",
+      "evidence_titles": [
+        "Fin4Dev Dialogue: First plenary meeting of the Beyond GDP Global Alliance",
+        "New data reveals what drives economic transformation – and where gaps persist"
+      ],
+      "evidence_sources": [
+        "UNCTAD",
+        "UNCTAD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 정책 성과 측정을 GDP·세수 중심에서 시민 체감·지속가능성 중심으로 전환하는 국제 흐름 반영 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-30",
+      "first_detected": "2026-04-30"
+    },
+    {
+      "signal_id": "sig_009",
+      "category": "정책패러다임전환",
+      "title_ko": "FDI 환경 악화 속 투자 개혁의 역설",
+      "description": "• UNCTAD가 방글라데시의 투자 개혁 사례를 '더 어려워진 FDI 환경에 직면한 개도국에게 교훈을 준다(offer lessons for developing economies facing tougher FDI climate)'고 분석\n• FDI 환경 악화가 투자 개혁을 포기하는 게 아니라 오히려 가속하는 계기로 작동하는 역설적 정책 패턴\n• 위기가 구조 개혁의 지연이 아닌 촉진 요인으로 재해석되는 정책 패러다임 전환",
+      "evidence_titles": [
+        "Bangladesh investment reforms offer lessons for developing economies facing tougher FDI climate"
+      ],
+      "evidence_sources": [
+        "UNCTAD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 외국인 투자 유치 정책을 위기 속에서도 선제적 개혁 모델로 전환. 방어가 아닌 공격적 개선 전략 필요",
+      "is_structural": true,
+      "detected_date": "2026-04-30",
+      "first_detected": "2026-04-30"
+    },
+    {
+      "signal_id": "sig_010",
+      "category": "정책패러다임전환",
+      "title_ko": "남남협력이 공동 번영의 핵심 축으로 재정의",
+      "description": "• UNCTAD가 '무역·투자에서 더 강한 남남협력이 공동 번영(shared prosperity)의 핵심'이라고 선언\n• 기존 선진국 중심 무역 질서에서 개도국 간 협력 중심 질서로 무역 정책 중심축 이동\n• 전쟁으로 인한 전통 무역 경로 차단이 남남협력 강화의 구조적 계기로 작용",
+      "evidence_titles": [
+        "Stronger South-South cooperation in trade and investment key to shared prosperity"
+      ],
+      "evidence_sources": [
+        "UNCTAD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 국제교류 정책을 선진국 중심에서 개도국 도시 간 협력 중심으로 다각화 필요. 새로운 무역 축 형성 예측",
+      "is_structural": true,
+      "detected_date": "2026-04-30",
+      "first_detected": "2026-04-30"
+    }
+  ],
+  "by_category": {
+    "무역공급망재편": 4,
+    "민생충격패턴": 1,
+    "정책패러다임전환": 4,
+    "에너지안보재편": 1
+  },
+  "summary_ko": "• UNCTAD가 호르무즈 차단 실시간 모니터링 대시보드를 구축하며 '차단점 중심 무역 관리'가 국제 표준으로 정착\n• 글로벌 무역이 성장하지만 취약성은 동시 상승하는 모순적 구조가 새로운 정상(new normal)으로 확립\n• 석유 충격이 플라스틱 대체재 확산을 막고, 항만은 위기 속 탈탄소 경쟁에 돌입하는 역설적 패턴 출현\n• FDI 환경 악화가 투자 개혁을 가속하고, 남남협력이 공동번영의 핵심축으로 재정의되는 정책 패러다임 전환\n• 무역 정책의 최전선이 관세에서 투명성·데이터·조기경보로 이동하며, GDP 넘어선 경제 측정 동맹 출범",
+  "top_signal": "해상 차단점 중심 무역 구조 재편",
+  "suwon_action": "수원시 제조기업 대상 공급망 조기경보 체계 즉시 구축 필요. 무역 성장=안정 전제 폐기하고 취약성 상시 관리 지원 체계로 기업 정책 전면 재설계 착수",
+  "weekly_trend": {
+    "정책패러다임전환": {
+      "count": 12,
+      "max_strength": 5
+    },
+    "무역공급망재편": {
+      "count": 8,
+      "max_strength": 5
+    },
+    "민생충격패턴": {
+      "count": 6,
+      "max_strength": 4
+    },
+    "에너지안보재편": {
+      "count": 5,
+      "max_strength": 5
+    },
+    "지역질서재편": {
+      "count": 1,
+      "max_strength": 4
+    }
+  },
+  "generated_at": "2026-04-30T02:36:42.178107"
+}

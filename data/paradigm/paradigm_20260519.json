@@ -1,0 +1,223 @@
+{
+  "date": "2026-05-19",
+  "total_signals": 10,
+  "structural_signals": 10,
+  "signals": [
+    {
+      "signal_id": "sig_001",
+      "category": "정책패러다임전환",
+      "title_ko": "OECD 글로벌 최저법인세 이행",
+      "description": "• OECD 회원국들이 글로벌 최저법인세(Pillar Two) 공통 이해 합의 및 행정지침 발표\n• 다국적기업 조세회피 방지를 위한 국제 조세 구조의 근본적 재편 진행\n• 각국이 최저세율 15% 적용으로 법인세 경쟁 구조에서 협력 구조로 전환",
+      "evidence_titles": [
+        "Global minimum tax: Release of a common understanding of implementing jurisdictions and further administrative guidance to support compliance",
+        "Global Anti-Base Erosion Model Rules (Pillar Two)",
+        "Base erosion and profit shifting (BEPS)"
+      ],
+      "evidence_sources": [
+        "OECD",
+        "OECD",
+        "OECD"
+      ],
+      "strength": 4,
+      "trend": "강화",
+      "suwon_implication": "수원시 소재 다국적기업 및 대기업의 조세 환경 변화로 지방세수 구조 재검토 필요. 기업 유치 정책에서 조세 인센티브보다 인프라·인재 경쟁력 강조 전략으로 전환 필요.",
+      "is_structural": true,
+      "detected_date": "2026-05-19"
+    },
+    {
+      "signal_id": "sig_002",
+      "category": "무역공급망재편",
+      "title_ko": "글로벌 가치사슬 재구성 진행",
+      "description": "• OECD 무역부가가치(TiVA) 데이터 분석을 통해 세계화가 종료가 아닌 재구성 중임을 확인\n• 전통적 글로벌 공급망에서 지역화·우방국 중심 공급망으로 구조적 전환\n• 단순 비용 효율성에서 안보·신뢰 기반 공급망 설계로 패러다임 이동",
+      "evidence_titles": [
+        "Globalisation isn't dead. It's reconfiguring. New insights from OECD Trade in Value Added data",
+        "Trade in value-added"
+      ],
+      "evidence_sources": [
+        "OECD",
+        "OECD"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 제조기업들의 글로벌 납품망 재편 대응 지원 필요. 특히 중소기업의 공급망 다변화 전략 수립 지원 및 지역 기업 간 협력 네트워크 강화 정책 시급.",
+      "is_structural": true,
+      "detected_date": "2026-05-19",
+      "first_detected": "2026-05-19"
+    },
+    {
+      "signal_id": "sig_004",
+      "category": "정책패러다임전환",
+      "title_ko": "경제성장-웰빙 균형 측정 전환",
+      "description": "• OECD가 GDP 중심 성장 지표에서 웰빙·포용성 통합 지표로 정책 평가 기준 전환\n• 경제성장의 질적 측면(불평등, 환경, 삶의 질)을 정책 성과 핵심 지표로 채택\n• 4분기 경제·웰빙 모니터링 정례화로 정책 우선순위 재배치 신호",
+      "evidence_titles": [
+        "Growth and economic well-being: fourth quarter 2025",
+        "OECD Well-being Data Monitor"
+      ],
+      "evidence_sources": [
+        "OECD",
+        "OECD"
+      ],
+      "strength": 4,
+      "trend": "강화",
+      "suwon_implication": "수원시 정책 성과 평가를 경제지표 중심에서 시민 삶의 질·행복도 통합 지표로 전환 필요. 취약계층 지원 및 환경 정책의 정책 우선순위 상향 근거 확보.",
+      "is_structural": true,
+      "detected_date": "2026-05-19"
+    },
+    {
+      "signal_id": "sig_003",
+      "category": "정책패러다임전환",
+      "title_ko": "AI 거버넌스 국제 표준화",
+      "description": "• OECD 인공지능 정책 프레임워크가 국제 표준으로 정착 진행 중\n• AI 윤리·안전·책임성에 대한 정부 개입 방식이 자율규제에서 제도화로 전환\n• AI 기술 혁신과 사회적 신뢰 확보의 균형 추구가 새로운 정책 패러다임으로 부상",
+      "evidence_titles": [
+        "Artificial intelligence"
+      ],
+      "evidence_sources": [
+        "OECD"
+      ],
+      "strength": 3,
+      "trend": "강화",
+      "suwon_implication": "수원시 스마트시티 정책 및 AI 기반 행정서비스 도입 시 윤리·안전 기준 선제 마련 필요. 시민 데이터 보호 및 AI 의사결정 투명성 확보를 위한 조례 정비 검토.",
+      "is_structural": true,
+      "detected_date": "2026-05-19"
+    },
+    {
+      "signal_id": "sig_005",
+      "category": "민생충격패턴",
+      "title_ko": "PISA 교육성과 하락 추세",
+      "description": "• OECD PISA 2022 결과에서 다수 국가의 읽기·수학·과학 성취도 하락 확인\n• 팬데믹 이후 교육 격차 심화 및 디지털 학습 부작용이 구조화 조짐\n• 교육 불평등이 세대 간 이동성 저하로 이어지는 장기 민생 충격 패턴 감지",
+      "evidence_titles": [
+        "Programme for International Student Assessment (PISA)",
+        "PISA 2022 Results (Volume I)",
+        "Learning English as a foreign language across PISA countries and economies"
+      ],
+      "evidence_sources": [
+        "OECD",
+        "OECD",
+        "OECD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 교육 취약계층 지원 프로그램 강화 필요. 특히 디지털 격차 해소 및 기초학력 보장을 위한 맞춤형 교육 지원 체계 구축 시급. 평생교육 정책과 연계 검토.",
+      "is_structural": true,
+      "detected_date": "2026-05-19",
+      "first_detected": "2026-05-19"
+    },
+    {
+      "signal_id": "sig_006",
+      "category": "정책패러다임전환",
+      "title_ko": "생물다양성-도시계획 통합",
+      "description": "• OECD가 'Nature-positive cities' 개념으로 도시정책에 자연자본 통합 추진\n• 도시개발이 생태계 보전과 대립이 아닌 통합 설계로 패러다임 전환\n• 민간 부문의 자연보호 행동 확대(Scaling Up Private Action for Nature) 정책 프레임워크 제시",
+      "evidence_titles": [
+        "Nature‑positive cities",
+        "Scaling Up Private Action for Nature",
+        "Launch of the OECD Environmental Performance Review of Austria 2026"
+      ],
+      "evidence_sources": [
+        "OECD",
+        "OECD",
+        "OECD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 도시재생 및 신규 개발 사업에서 생물다양성 보전 기준 통합 검토 필요. 광교호수공원 등 생태자산을 활용한 'Nature-positive' 도시 브랜딩 전략 개발 가능.",
+      "is_structural": true,
+      "detected_date": "2026-05-19",
+      "first_detected": "2026-05-19"
+    },
+    {
+      "signal_id": "sig_007",
+      "category": "정책패러다임전환",
+      "title_ko": "장기근로-경력이동성 정책 전환",
+      "description": "• OECD가 벨기에 사례 분석을 통해 '더 긴 근로생애' 정책의 새로운 접근법 제시\n• 단순 정년 연장이 아닌 경력 이동성(Career Mobility) 강화로 정책 초점 전환\n• 고령화 대응이 연금 부담 감축에서 생산성 유지·삶의 질 보장으로 패러다임 이동",
+      "evidence_titles": [
+        "Promoting Better Career Mobility for Longer Working Lives in Belgium"
+      ],
+      "evidence_sources": [
+        "OECD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 중장년층 재취업 지원 정책을 단순 일자리 연결에서 경력 전환 교육·컨설팅 중심으로 재설계 필요. 생애 경력 설계 지원 센터 운영 검토.",
+      "is_structural": true,
+      "detected_date": "2026-05-19",
+      "first_detected": "2026-05-19"
+    },
+    {
+      "signal_id": "sig_008",
+      "category": "민생충격패턴",
+      "title_ko": "아동학대 경제적 결정요인 주목",
+      "description": "• OECD가 아동학대의 경제적 결정요인 및 사회경제적 결과 연구 발표\n• 빈곤·실업 등 경제적 스트레스가 아동학대 위험 증가시키는 구조적 관계 규명\n• 아동복지 정책이 사후 개입에서 경제적 예방 정책으로 확장되는 패러다임 전환 신호",
+      "evidence_titles": [
+        "Economic Determinants and Consequences of Child Maltreatment"
+      ],
+      "evidence_sources": [
+        "OECD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 아동보호 정책에서 경제적 취약가정 선제 지원 강화 필요. 실업·빈곤 가정 아동 대상 통합 지원 시스템 구축 및 조기 경보 체계 마련 검토.",
+      "is_structural": true,
+      "detected_date": "2026-05-19",
+      "first_detected": "2026-05-19"
+    },
+    {
+      "signal_id": "sig_010",
+      "category": "정책패러다임전환",
+      "title_ko": "유아교육 포용성 모니터링 체계화",
+      "description": "• OECD가 유아교육·보육(ECEC)의 포용적 참여 모니터링 체계 제시\n• 유아교육 정책이 접근성 확대에서 형평성·질적 참여 보장으로 목표 전환\n• 생애 초기 교육 불평등이 장기 경제·사회적 격차로 이어지는 구조적 인식 확산",
+      "evidence_titles": [
+        "Monitoring inclusive participation in early childhood education and care"
+      ],
+      "evidence_sources": [
+        "OECD"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 국공립어린이집 확충 정책에 더해 취약계층 영유아의 실질적 참여 질 모니터링 체계 구축 필요. 맞춤형 보육 지원 및 부모 교육 통합 프로그램 검토.",
+      "is_structural": true,
+      "detected_date": "2026-05-19",
+      "first_detected": "2026-05-19"
+    },
+    {
+      "signal_id": "sig_009",
+      "category": "무역공급망재편",
+      "title_ko": "라틴아메리카 FDI 재평가",
+      "description": "• OECD가 라틴아메리카·카리브해 지역 외국인직접투자(FDI)의 사회경제적 영향 재평가\n• 전통적 FDI 유치 정책에서 지역 경제·사회 통합형 투자 유도로 정책 방향 전환\n• 글로벌 투자 흐름 재편 시 단순 유치 경쟁 아닌 질적 평가 중심 접근 확산 신호",
+      "evidence_titles": [
+        "Assessing the Socio‑economic Impact of Foreign Direct Investment in Latin America and the Caribbean"
+      ],
+      "evidence_sources": [
+        "OECD"
+      ],
+      "strength": 2,
+      "trend": "신규",
+      "suwon_implication": "수원시 외국인투자 유치 정책 평가 기준을 투자 규모에서 지역경제 통합도·일자리 질·기술이전 효과로 다변화 검토. 지속가능 투자 유치 전략 수립 근거.",
+      "is_structural": true,
+      "detected_date": "2026-05-19",
+      "first_detected": "2026-05-19"
+    }
+  ],
+  "by_category": {
+    "정책패러다임전환": 6,
+    "무역공급망재편": 2,
+    "민생충격패턴": 2
+  },
+  "summary_ko": "• OECD 글로벌 최저법인세 이행과 GDP 중심 평가에서 웰빙·포용성 통합 지표로의 전환이 동시 진행되며, 경제정책 패러다임이 '성장 경쟁'에서 '질적 성장·협력'으로 근본 재편 중\n• 글로벌 공급망이 비용 효율성 중심에서 안보·신뢰 기반 지역화로 재구성되고, FDI 정책도 단순 유치에서 지역경제 통합형 질적 평가로 전환\n• AI 거버넌스와 생물다양성-도시계획 통합이 국제 표준으로 정착하며, 기술혁신과 자연자본이 도시정책의 필수 고려요소로 제도화\n• 교육 영역에서 PISA 성취도 하락과 교육 격차 구조화, 유아교육 포용성 모니터링 체계화가 맞물리며 생애 전주기 교육 불평등 대응이 최우선 과제로 부상\n• 고령화 대응이 정년 연장에서 경력 이동성 강화로, 아동보호가 사후 개입에서 경제적 예방으로 전환되며 사회정책의 선제적·구조적 접근 패러다임 확산",
+  "top_signal": "경제성장-웰빙 균형 측정 전환",
+  "suwon_action": "수원시 정책 성과 평가 체계를 경제지표 중심에서 시민 삶의 질·행복도·포용성 통합 지표로 즉시 전환 착수. 교육 취약계층 디지털 격차 해소 및 기초학력 보장 긴급 대응 체계 구축 시급.",
+  "weekly_trend": {
+    "정책패러다임전환": {
+      "count": 6,
+      "max_strength": 4
+    },
+    "민생충격패턴": {
+      "count": 2,
+      "max_strength": 3
+    },
+    "무역공급망재편": {
+      "count": 2,
+      "max_strength": 4
+    }
+  },
+  "generated_at": "2026-05-19T06:42:20.446349"
+}
