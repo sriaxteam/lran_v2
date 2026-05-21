@@ -1834,56 +1834,47 @@ st.markdown(f"""
 
 
 # ═══════════════════════════════════════════════════════════
-# ⑤ 한국 지자체 대응 현황
+# ⑤ 공개 채널 시민 목소리
 # ═══════════════════════════════════════════════════════════
-lga_data_raw = domestic.get("lga_responses", []) or minseang.get("lga_responses", [])
 
-DEFAULT_LGA = [
-    {"name":"경기도",   "type":"도",   "stage":"적극",     "actions":"에너지 취약계층 긴급 지원 예산 편성 검토, 도내 지자체 공동 대응 지침 준비, 중소기업 에너지비용 경감 조기 집행", "ref":"수원시 → 도비 매칭사업 연계 필요"},
-    {"name":"서울특별시","type":"광역","stage":"선제",     "actions":"에너지 위기 TF 가동, 취약계층 전기·가스요금 긴급 바우처 조기 집행, 서울형 에너지 상한제 연동 지원 검토",    "ref":"바우처 단가·지급 방식 벤치마킹 대상"},
-    {"name":"인천광역시","type":"광역","stage":"적극",     "actions":"LNG 수입 다변화 항만 대비 점검, 에너지 비상공급 계획 선제 수립",                                           "ref":"납품 단가 연동 지원 모델 참고"},
-    {"name":"전주시",   "type":"기초", "stage":"적극",     "actions":"K-패스 환급률 상향 조정 건의, 대중교통 에너지 비용 지자체 보조 확대",                                       "ref":"K-패스 수원 도입 시 직접 적용 가능"},
-    {"name":"부산광역시","type":"광역","stage":"모니터링", "actions":"해운·물류비 급등 모니터링, 수출기업 공급망 현황 파악 중",                                                 "ref":"삼성 공급망 연계 물류비 분석 공유 요청"},
-]
+citizen_voice_items = get_citizen_voice_items(date_str)
 
-lga_list = lga_data_raw if lga_data_raw else DEFAULT_LGA
-suwon_stage = urgency if urgency in ["선제","적극","검토","모니터링"] else "모니터링"
+cv_tab_map = {
+    "전체": "all",
+    "네이버 뉴스": "naver",
+    "유튜브": "youtube",
+    "지역 언론": "local",
+    "당근": "daangn",
+}
 
-lga_rows_html = ""
-for row in lga_list:
-    name  = row.get("name","")
-    ltype = row.get("type","기초")
-    stage = row.get("stage","모니터링")
-    acts  = row.get("actions","")
-    lga_rows_html += (
-        f'<tr class="lga-row">'
-        f'<td class="lga-name-cell">{name}<span class="lga-type-tag tt-{ltype}">{ltype}</span></td>'
-        f'<td class="lga-stage-cell"><span class="stage-badge stage-{stage}">{stage}</span></td>'
-        f'<td class="lga-action-cell">{acts}</td>'
-        f'</tr>'
-    )
+cv_selected_label = st.radio(
+    "공개 채널 시민 목소리 필터",
+    options=list(cv_tab_map.keys()),
+    horizontal=True,
+    index=0,
+    key=f"cvtab_{date_str}",
+    label_visibility="collapsed",
+)
 
-st.markdown(f"""
-<div class="section-card">
-  <div class="sec-header">
-    <span class="sec-title"><span class="sec-num">05</span> 지자체 대응</span>
-    <span class="sec-badge badge-green">Local Gov Response Matrix</span>
-  </div>
-  <table class="lga-table">
-    <thead>
-      <tr>
-        <th class="lga-th" style="min-width:120px">지자체</th>
-        <th class="lga-th" style="min-width:90px">대응 단계</th>
-        <th class="lga-th">주요 조치</th>
-      </tr>
-    </thead>
-    <tbody>{lga_rows_html}</tbody>
-  </table>
-  <div style="margin-top:10px;font-size:0.65rem;color:#2D4A65">
-    대응단계: <span style="color:#F87171;font-weight:700">선제</span> &gt; <span style="color:#FCD34D;font-weight:700">적극</span> &gt; <span style="color:#93C5FD;font-weight:700">검토</span> &gt; <span style="color:#64748B;font-weight:700">모니터링</span>
-  </div>
-</div>
-""", unsafe_allow_html=True)
+cv_selected_channel = cv_tab_map[cv_selected_label]
+cv_html = build_citizen_voice_html(
+    citizen_voice_items,
+    selected_channel=cv_selected_channel,
+    limit=6 if cv_selected_channel == "all" else 4
+)
+
+st.markdown(
+    f"""
+    <div class="section-card">
+      <div class="sec-header">
+        <span class="sec-title"><span class="sec-num">05</span> 공개 채널 시민 목소리</span>
+        <span class="sec-badge badge-green">Citizen Voice Monitor</span>
+      </div>
+      {cv_html}
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 # (⑥⑦ 민생경제·대응과제는 ③④ 위치로 이동됨)
 
