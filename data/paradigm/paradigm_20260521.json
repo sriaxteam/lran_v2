@@ -1,0 +1,129 @@
+{
+  "date": "2026-05-21",
+  "total_signals": 5,
+  "structural_signals": 5,
+  "signals": [
+    {
+      "signal_id": "sig_001",
+      "category": "에너지안보재편",
+      "title_ko": "OPEC 2050 전망 발표",
+      "description": "• OPEC가 2050년까지 장기 석유시장 전망 발표, 기존 단기 중심에서 초장기 구조 분석으로 전환\n• 글로벌 에너지 전환 시대에 OPEC의 역할 재정의 시도, 화석연료 중장기 수요 예측 제시\n• 'fossil fuel' 용어 재검토 논의 시작, 에너지원 분류 체계 자체의 패러다임 변화 신호",
+      "evidence_titles": [
+        "World Oil Outlook 2050 - OPEC: Publications",
+        "Does the 'fossil fuel' label require a rethink?",
+        "Oil Outlook: Challenges and Opportunities"
+      ],
+      "evidence_sources": [
+        "OPEC_News",
+        "OPEC_News",
+        "OPEC_News"
+      ],
+      "strength": 4,
+      "trend": "신규",
+      "suwon_implication": "수원시 2050 탄소중립 로드맵 수립 시 국제 에너지 구조 전망 반영 필요. 장기 에너지 비용 예측 모델 재검토 시점.",
+      "is_structural": true,
+      "detected_date": "2026-05-21",
+      "first_detected": "2026-05-21"
+    },
+    {
+      "signal_id": "sig_002",
+      "category": "정책패러다임전환",
+      "title_ko": "OPEC 협력선언 체제 진화",
+      "description": "• OPEC의 'Declaration of Cooperation' 체제, 단순 생산량 조정을 넘어 구조적 협력 프레임워크로 진화\n• 비OPEC 산유국과의 협력(OPEC+) 체제가 제도화되며 글로벌 석유 거버넌스 구조 변화\n• 가격 안정보다 '시장 안정성' 전체를 목표로 하는 정책 철학 전환 신호",
+      "evidence_titles": [
+        "Declaration of Cooperation - Organization of the Petroleum Exporting Countries",
+        "Press Releases - Organization of the Petroleum Exporting Countries"
+      ],
+      "evidence_sources": [
+        "OPEC_News",
+        "OPEC_News"
+      ],
+      "strength": 3,
+      "trend": "강화",
+      "suwon_implication": "국제 에너지 가격 변동성이 단기 투기보다 구조적 협력에 좌우되는 시대. 수원시 에너지 구매 계약 시 장기 안정성 중시 전략 필요.",
+      "is_structural": true,
+      "detected_date": "2026-05-21"
+    },
+    {
+      "signal_id": "sig_003",
+      "category": "에너지안보재편",
+      "title_ko": "OPEC 통계 체계 고도화",
+      "description": "• OPEC 연간통계보고서(ASB) 61차 개정(2026), 데이터 범위와 분석 깊이 대폭 확대\n• 단순 생산·소비 통계를 넘어 에너지 전환, 탄소배출, 투자 흐름까지 포괄하는 통합 정보 체계 구축\n• 국제 에너지 정책 수립의 근거 데이터 표준이 OPEC 주도로 재편되는 신호",
+      "evidence_titles": [
+        "61st Edition of OPEC's Annual Statistical Bulletin (ASB-2026) launched on 29 April 2026",
+        "Annual Statistical Bulletin 2026 - OPEC: Publications",
+        "Annual Statistical Bulletin 2025 - OPEC: Publications"
+      ],
+      "evidence_sources": [
+        "OPEC_News",
+        "OPEC_News",
+        "OPEC_News"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "수원시 에너지 정책 수립 시 참조하는 국제 통계 기준이 변화. 탄소중립·에너지전환 계획 수립의 데이터 인프라 재검토 시점.",
+      "is_structural": true,
+      "detected_date": "2026-05-21",
+      "first_detected": "2026-05-21"
+    },
+    {
+      "signal_id": "sig_004",
+      "category": "정책패러다임전환",
+      "title_ko": "석유기구 조직구조 재편",
+      "description": "• OPEC 조직구조(Organization Structure) 개편, 전통적 생산 조정 중심에서 다기능 정책 기구로 전환\n• 연구·통계·대외협력 부문 강화, 단순 카르텔이 아닌 글로벌 에너지 싱크탱크 지향\n• 에너지 전환 시대 OPEC의 생존 전략이 '생산 통제'에서 '정책 리더십'으로 이동",
+      "evidence_titles": [
+        "Organization Structure - Organization of the Petroleum Exporting Countries",
+        "Brief History - Organization of the Petroleum Exporting Countries"
+      ],
+      "evidence_sources": [
+        "OPEC_News",
+        "OPEC_News"
+      ],
+      "strength": 3,
+      "trend": "신규",
+      "suwon_implication": "국제 에너지 담론 형성 주체 변화. 수원시가 참조하는 에너지 정책 벤치마킹 대상에 OPEC 연구보고서 포함 검토 필요.",
+      "is_structural": true,
+      "detected_date": "2026-05-21",
+      "first_detected": "2026-05-21"
+    },
+    {
+      "signal_id": "sig_005",
+      "category": "에너지안보재편",
+      "title_ko": "월간 시장보고서 정례화",
+      "description": "• OPEC 월간 석유시장 보고서(MOMR) 발행 체계 강화, 실시간 시장 모니터링 체제 구축\n• 과거 사후 분석 중심에서 선행 지표 분석·전망 중심으로 보고서 성격 전환\n• 국제 유가 결정이 '시장 발견'보다 'OPEC 예측 신호'에 선반영되는 구조 형성 가능성",
+      "evidence_titles": [
+        "Monthly Oil Market Report - Organization of the Petroleum Exporting Countries",
+        "OPEC Monthly Oil Market Report - OPEC: Publications",
+        "Oil market highlights - OPEC: Publications"
+      ],
+      "evidence_sources": [
+        "OPEC_News",
+        "OPEC_News",
+        "OPEC_News"
+      ],
+      "strength": 3,
+      "trend": "강화",
+      "suwon_implication": "국제 유가 변동 예측 정확도 향상 가능. 수원시 에너지 구매 입찰 타이밍, 난방비 예산 편성 시 OPEC 월간보고서 활용 검토.",
+      "is_structural": true,
+      "detected_date": "2026-05-21"
+    }
+  ],
+  "by_category": {
+    "에너지안보재편": 3,
+    "정책패러다임전환": 2
+  },
+  "summary_ko": "• OPEC가 2050 장기 전망 체계를 구축하며 단기 생산 조정 기구에서 글로벌 에너지 정책 싱크탱크로 전환 중\n• 'fossil fuel' 용어 재검토 등 에너지원 분류 체계 자체의 패러다임 변화 신호 포착\n• 통계·조직·월간보고서 전 영역에서 고도화 진행, 국제 에너지 담론 형성 주도권 강화 시도\n• OPEC+ 협력선언 체제 제도화로 유가 결정 구조가 '시장 발견'에서 '구조적 협력'으로 이동\n• 수원시 2050 탄소중립 로드맵 및 에너지 구매 전략 수립 시 참조하는 국제 기준 데이터 인프라 전면 재편 국면",
+  "top_signal": "OPEC 2050 전망 발표",
+  "suwon_action": "수원시 2050 탄소중립 시나리오 재검토 착수 필요. OPEC 장기 전망 반영한 에너지 비용 예측 모델 업데이트와 에너지 구매 계약 장기 안정성 전략 수립 시급.",
+  "weekly_trend": {
+    "에너지안보재편": {
+      "count": 3,
+      "max_strength": 4
+    },
+    "정책패러다임전환": {
+      "count": 2,
+      "max_strength": 3
+    }
+  },
+  "generated_at": "2026-05-21T00:44:14.141137"
+}
