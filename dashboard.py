@@ -1839,42 +1839,43 @@ st.markdown(f"""
 
 citizen_voice_items = get_citizen_voice_items(date_str)
 
-cv_tab_map = {
-    "전체": "all",
-    "네이버 뉴스": "naver",
-    "유튜브": "youtube",
-    "지역 언론": "local",
-    "당근": "daangn",
+# 채널별 개수
+cv_counts = {
+    "all":     len(citizen_voice_items),
+    "naver":   sum(1 for x in citizen_voice_items if x.get("channel") == "naver"),
+    "youtube": sum(1 for x in citizen_voice_items if x.get("channel") == "youtube"),
 }
 
-cv_selected_label = st.radio(
-    "공개 채널 시민 목소리 필터",
-    options=list(cv_tab_map.keys()),
-    horizontal=True,
-    index=0,
-    key=f"cvtab_{date_str}",
-    label_visibility="collapsed",
-)
+st.markdown("""
+<div class="section-card">
+  <div class="sec-header">
+    <span class="sec-title"><span class="sec-num">05</span> 공개 채널 시민 목소리</span>
+    <span class="sec-badge badge-green">Citizen Voice Monitor</span>
+  </div>
+</div>
+""", unsafe_allow_html=True)
 
-cv_selected_channel = cv_tab_map[cv_selected_label]
-cv_html = build_citizen_voice_html(
-    citizen_voice_items,
-    selected_channel=cv_selected_channel,
-    limit=6 if cv_selected_channel == "all" else 4
-)
+# 실제 동작하는 st.tabs
+cv_tab_labels = [
+    f"전체 {cv_counts['all']}",
+    f"네이버 뉴스 {cv_counts['naver']}",
+    f"유튜브 {cv_counts['youtube']}",
+]
+cv_channel_keys = ["all", "naver", "youtube"]
 
-st.markdown(
-    f"""
-    <div class="section-card">
-      <div class="sec-header">
-        <span class="sec-title"><span class="sec-num">05</span> 공개 채널 시민 목소리</span>
-        <span class="sec-badge badge-green">Citizen Voice Monitor</span>
-      </div>
-      {cv_html}
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
+cv_tabs = st.tabs(cv_tab_labels)
+for tab, ch_key in zip(cv_tabs, cv_channel_keys):
+    with tab:
+        filtered = (
+            citizen_voice_items[:6] if ch_key == "all"
+            else [x for x in citizen_voice_items if x.get("channel") == ch_key][:6]
+        )
+        if not filtered:
+            st.markdown("<p style='color:#888;font-size:0.8rem;padding:12px 0'>해당 채널 데이터가 없습니다.</p>",
+                        unsafe_allow_html=True)
+        else:
+            cv_html = build_citizen_voice_html(filtered, selected_channel="all", limit=6)
+            st.markdown(cv_html, unsafe_allow_html=True)
 
 # (⑥⑦ 민생경제·대응과제는 ③④ 위치로 이동됨)
 
