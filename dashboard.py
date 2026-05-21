@@ -799,7 +799,7 @@ def load_citizen_voice_xlsx(date_str):
         df["posted_date"] = pd.to_datetime(df["posted_date"], errors="coerce")
 
         df = df.dropna(subset=["posted_date"])
-        df = df[df["channel"].isin(["naver", "youtube", "local", "daangn"])].copy()
+        df = df[df["channel"].isin(["naver", "blog", "youtube", "local", "daangn"])].copy()
         if df.empty:
             return None
 
@@ -1819,6 +1819,7 @@ citizen_voice_items = get_citizen_voice_items(date_str)
 cv_counts = {
     "all":     len(citizen_voice_items),
     "naver":   sum(1 for x in citizen_voice_items if x.get("channel") == "naver"),
+    "blog":    sum(1 for x in citizen_voice_items if x.get("channel") == "blog"),
     "youtube": sum(1 for x in citizen_voice_items if x.get("channel") == "youtube"),
 }
 
@@ -1835,9 +1836,10 @@ st.markdown("""
 cv_tab_labels = [
     f"전체 {cv_counts['all']}",
     f"네이버 뉴스 {cv_counts['naver']}",
+    f"블로그 {cv_counts['blog']}",
     f"유튜브 {cv_counts['youtube']}",
 ]
-cv_channel_keys = ["all", "naver", "youtube"]
+cv_channel_keys = ["all", "naver", "blog", "youtube"]
 
 cv_tabs = st.tabs(cv_tab_labels)
 for tab, ch_key in zip(cv_tabs, cv_channel_keys):

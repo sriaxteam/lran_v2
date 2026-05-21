@@ -131,6 +131,70 @@ def collect_naver_news(date_str: str) -> list[dict]:
     return results
 
 
+# ── 네이버 블로그 수집 ───────────────────────────────────
+BLOG_QUERIES = [
+    "이란 전쟁 우리 생활 영향",
+    "중동 전쟁 물가 실생활",
+    "휘발유 가격 요즘 힘들다",
+    "장바구니 물가 마트 가격 올랐다",
+    "배달비 외식비 부담 요즘",
+    "도시가스 전기요금 가계 부담",
+]
+
+def collect_naver_blog(date_str: str) -> list[dict]:
+    if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
+        print("[!] 네이버 API 키 없음 — 건너뜀")
+        return []
+
+    results = []
+    headers = {
+        "X-Naver-Client-Id": NAVER_CLIENT_ID,
+        "X-Naver-Client-Secret": NAVER_CLIENT_SECRET,
+    }
+
+    for query in BLOG_QUERIES:
+        try:
+            r = requests.get(
+                "https://openapi.naver.com/v1/search/blog.json",
+                headers=headers,
+                params={"query": query, "display": 5, "sort": "date"},
+                timeout=10,
+            )
+            if r.status_code != 200:
+                print(f"  블로그 오류 [{query}]: {r.status_code}")
+                continue
+
+            for item in r.json().get("items", []):
+                title   = re.sub(r"<[^>]+>", "", item.get("title", "")).strip()
+                desc    = re.sub(r"<[^>]+>", "", item.get("description", "")).strip()
+                pub_str = item.get("postdate", "")
+                try:
+                    pub_date = datetime.strptime(pub_str, "%Y%m%d").date()
+                except Exception:
+                    pub_date = datetime.strptime(date_str, "%Y%m%d").date()
+
+                comment = desc[:150] if desc else title
+                if not is_life_related(title + " " + comment):
+                    continue
+
+                results.append({
+                    "channel":      "blog",
+                    "source_title": title[:60],
+                    "comment":      comment,
+                    "like_count":   0,
+                    "posted_date":  pub_date,
+                    "tag":          auto_tag(title + desc),
+                    "source_url":   item.get("link", ""),
+                    "bold_phrase":  "",
+                })
+
+        except Exception as e:
+            print(f"  블로그 수집 실패 [{query}]: {e}")
+
+    print(f"[OK] 네이버 블로그 {len(results)}건 수집")
+    return results
+
+
 # ── 유튜브 댓글 수집 ─────────────────────────────────────
 def collect_youtube_comments(date_str: str) -> list[dict]:
     if not YOUTUBE_API_KEY:
@@ -246,6 +310,7 @@ def run(date_str: str = None):
 
     rows = []
     rows += collect_naver_news(date_str)
+    rows += collect_naver_blog(date_str)
     rows += collect_youtube_comments(date_str)
     save_xlsx(rows, date_str)
 
