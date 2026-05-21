@@ -1815,12 +1815,6 @@ st.markdown(f"""
 
 citizen_voice_items = get_citizen_voice_items(date_str)
 
-# 채널별 개수
-cv_counts = {
-    "all":     len(citizen_voice_items),
-    "youtube": sum(1 for x in citizen_voice_items if x.get("channel") == "youtube"),
-}
-
 st.markdown("""
 <div class="section-card">
   <div class="sec-header">
@@ -1830,23 +1824,24 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# 실제 동작하는 st.tabs
-cv_tab_labels = [
-    f"전체 {cv_counts['all']}",
-    f"유튜브 댓글 {cv_counts['youtube']}",
-]
-cv_channel_keys = ["all", "youtube"]
+# 태그 목록 동적 생성 (개수 많은 순)
+from collections import Counter
+tag_counter = Counter(x.get("tag","기타") for x in citizen_voice_items)
+tag_order   = ["전체"] + [t for t, _ in tag_counter.most_common()]
+
+cv_tab_labels  = [f"{t} {len(citizen_voice_items) if t=='전체' else tag_counter[t]}" for t in tag_order]
+cv_tab_keys    = tag_order   # "전체" or 태그명
 
 cv_tabs = st.tabs(cv_tab_labels)
-for tab, ch_key in zip(cv_tabs, cv_channel_keys):
+for tab, tag_key in zip(cv_tabs, cv_tab_keys):
     with tab:
         filtered = (
             citizen_voice_items
-            if ch_key == "all"
-            else [x for x in citizen_voice_items if x.get("channel") == ch_key]
+            if tag_key == "전체"
+            else [x for x in citizen_voice_items if x.get("tag") == tag_key]
         )
         if not filtered:
-            st.markdown("<p style='color:#888;font-size:0.8rem;padding:12px 0'>해당 채널 데이터가 없습니다.</p>",
+            st.markdown("<p style='color:#888;font-size:0.8rem;padding:12px 0'>데이터가 없습니다.</p>",
                         unsafe_allow_html=True)
         else:
             cv_html = build_citizen_voice_html(filtered, selected_channel="all", limit=len(filtered))
