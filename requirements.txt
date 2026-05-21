@@ -1,0 +1,14 @@
+# 이란전쟁 민생 에이전트 v2 — 의존성
+anthropic>=0.40.0
+feedparser>=6.0.10
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+python-dotenv>=1.0.0
+schedule>=1.2.0
+lxml>=5.0.0
+youtube-transcript-api>=0.6.0
+# 대시보드
+streamlit>=1.35.0
+plotly>=5.20.0
+pandas>=2.0.0
+openpyxl>=3.1.0
