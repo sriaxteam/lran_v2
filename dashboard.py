@@ -1841,15 +1841,19 @@ cv_tabs = st.tabs(cv_tab_labels)
 for tab, ch_key in zip(cv_tabs, cv_channel_keys):
     with tab:
         filtered = (
-            citizen_voice_items[:6] if ch_key == "all"
-            else [x for x in citizen_voice_items if x.get("channel") == ch_key][:6]
+            citizen_voice_items
+            if ch_key == "all"
+            else [x for x in citizen_voice_items if x.get("channel") == ch_key]
         )
         if not filtered:
             st.markdown("<p style='color:#888;font-size:0.8rem;padding:12px 0'>해당 채널 데이터가 없습니다.</p>",
                         unsafe_allow_html=True)
         else:
-            cv_html = build_citizen_voice_html(filtered, selected_channel="all", limit=6)
-            st.markdown(cv_html, unsafe_allow_html=True)
+            cv_html = build_citizen_voice_html(filtered, selected_channel="all", limit=len(filtered))
+            st.markdown(
+                f"<div style='max-height:520px;overflow-y:auto;padding-right:6px'>{cv_html}</div>",
+                unsafe_allow_html=True,
+            )
 
 # (⑥⑦ 민생경제·대응과제는 ③④ 위치로 이동됨)
 
