@@ -20,21 +20,49 @@ YOUTUBE_API_KEY     = os.getenv("YOUTUBE_API_KEY")
 DATA_DIR = Path(__file__).parent / "data" / "citizen_voice"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
-# ── 검색 키워드 ──────────────────────────────────────────
+# ── 검색 키워드 (생활 민생 중심) ─────────────────────────
 NAVER_QUERIES = [
-    "이란 전쟁 물가",
-    "중동 전쟁 민생",
-    "휘발유 가격 수원",
-    "도시가스 인상 생활비",
-    "배달비 물가 소상공인",
-    "이란 유가 서민",
+    "휘발유 가격 올랐다 생활",
+    "장바구니 물가 힘들다",
+    "도시가스 요금 인상 서민",
+    "배달비 올라 소상공인 어렵다",
+    "전기요금 인상 가계 부담",
+    "마트 물가 식료품 상승",
+    "자영업자 운영비 힘들다",
+    "대중교통비 유류비 부담",
 ]
 
 YOUTUBE_QUERIES = [
-    "이란 전쟁 민생 영향",
-    "중동 유가 물가 상승",
-    "수원 생활비 물가",
+    "장바구니 물가 마트 요즘 생활",
+    "휘발유 기름값 주유소 요즘",
+    "배달비 올랐다 자영업 소상공인",
+    "전기요금 도시가스 인상 가계",
+    "외식비 식료품 물가 서민",
 ]
+
+# ── 전쟁/정치 키워드 필터 (생활과 무관한 댓글 제거) ──────
+EXCLUDE_KEYWORDS = [
+    "트럼프", "바이든", "이스라엘", "하마스", "미사일", "핵", "봉쇄",
+    "군사", "공습", "전투", "폭격", "협상", "외교", "제재", "UN",
+    "NATO", "러시아", "우크라이나",
+]
+
+# ── 민생 관련 키워드 (이 중 하나 이상 포함돼야 통과) ─────
+LIFE_KEYWORDS = [
+    "물가", "가격", "요금", "비용", "생활", "서민", "가계", "월급",
+    "장바구니", "마트", "식료품", "배달", "주유", "기름", "가스",
+    "전기", "난방", "월세", "소상공인", "자영업", "임금", "알바",
+    "치킨", "커피", "외식", "지출", "부담", "힘들", "올랐",
+]
+
+def is_life_related(text: str) -> bool:
+    """전쟁/정치 댓글 걸러내고, 생활 민생 관련 댓글만 통과"""
+    exclude_hit = sum(1 for kw in EXCLUDE_KEYWORDS if kw in text)
+    life_hit    = sum(1 for kw in LIFE_KEYWORDS if kw in text)
+    # 제외 키워드가 1개라도 있으면 민생 키워드 2개 이상 필요
+    if exclude_hit >= 1:
+        return life_hit >= 2
+    return life_hit >= 1
 
 TAG_MAP = {
     "휘발유": "유류비", "유가": "유류비", "기름값": "유류비", "주유": "유류비",
@@ -85,6 +113,9 @@ def collect_naver_news(date_str: str) -> list[dict]:
                     pub_date = datetime.strptime(date_str, "%Y%m%d").date()
 
                 comment = desc[:120] if desc else title
+                if not is_life_related(title + " " + comment):
+                    continue
+
                 results.append({
                     "channel":      "naver",
                     "source_title": title[:60],
@@ -166,6 +197,9 @@ def collect_youtube_comments(date_str: str) -> list[dict]:
                         pub_date = base_date.date()
 
                     if not comment_text or len(comment_text) < 10:
+                        continue
+
+                    if not is_life_related(comment_text):
                         continue
 
                     results.append({
