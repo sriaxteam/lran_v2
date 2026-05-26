@@ -23,6 +23,10 @@ _DASH_VER   = os.getenv("IRAN_DASH_VERSION", "V2")
 _IS_V2      = _DASH_VER == "V2"
 _VER_LABEL  = "V2" if _IS_V2 else "V1"
 
+# 모바일 뷰 토글 (URL 파라미터 기반)
+_mobile_view   = st.query_params.get("view", "") == "mobile"
+_url_date_str  = st.query_params.get("date", "")  # 뷰 전환 시 날짜 보존용
+
 COUNTRY_RESPONSE_DIR = DATA_DIR / "country_response"
 CLEAN_DIR            = DATA_DIR / "clean"
 
@@ -729,6 +733,52 @@ a.yt-title:hover { color: #1C2B40; text-decoration: underline; }
   word-break: keep-all;
 }
 
+/* ── 모바일 토글 버튼 ── */
+.mobile-toggle-btn {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 5px 13px; border-radius: 20px;
+  font-size: 0.72rem; font-weight: 700;
+  text-decoration: none; cursor: pointer;
+  border: 1.5px solid rgba(255,255,255,0.35);
+  color: #FFFFFF; background: rgba(255,255,255,0.12);
+  transition: background 0.2s;
+}
+.mobile-toggle-btn:hover { background: rgba(255,255,255,0.25); }
+.mobile-toggle-btn.active { background: #1A56DB; border-color: #1A56DB; }
+
+/* ── 모바일 뷰 오버라이드 ── */
+.mobile-mode .block-container {
+  max-width: 100% !important;
+  padding: 0 8px 24px 8px !important;
+  margin: 0 !important;
+}
+.mobile-mode .triple-grid  { grid-template-columns: 1fr !important; }
+.mobile-mode .hero-card    { grid-template-columns: 1fr !important; }
+.mobile-mode .twin-panels  { grid-template-columns: 1fr !important; }
+.mobile-mode .bench-grid   { grid-template-columns: 1fr 1fr !important; }
+.mobile-mode .panel-card   { grid-template-columns: 1fr !important; }
+.mobile-mode .metrics-strip {
+  overflow-x: auto !important; flex-wrap: nowrap !important;
+  -webkit-overflow-scrolling: touch;
+}
+.mobile-mode .ms-item      { min-width: 76px; flex: 0 0 auto; }
+.mobile-mode .header-main  { font-size: 1.05rem !important; }
+.mobile-mode .intel-header-inner { padding: 14px 14px 12px 14px !important; }
+.mobile-mode .page-wrap    { padding: 12px 10px !important; }
+.mobile-mode .section-card { padding: 14px 12px !important; }
+.mobile-mode .footer-grid  { grid-template-columns: 1fr !important; }
+
+/* ── 자동 반응형 (600px 이하) ── */
+@media (max-width: 600px) {
+  .block-container { max-width: 100% !important; padding: 0 6px 20px 6px !important; }
+  .triple-grid  { grid-template-columns: 1fr !important; }
+  .hero-card    { grid-template-columns: 1fr !important; }
+  .twin-panels  { grid-template-columns: 1fr !important; }
+  .metrics-strip { overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; }
+  .ms-item      { min-width: 76px; flex: 0 0 auto; }
+  .header-main  { font-size: 1.05rem !important; }
+}
+
 /* ── 인쇄 — A4 최적화 ── */
 @media print {
   @page { size: A4; margin: 15mm 18mm; }
@@ -994,39 +1044,23 @@ for _d in _available_dates:
 _months_list = sorted(_by_month.keys(), reverse=True)
 
 if "dp_month" not in st.session_state:
-    st.session_state.dp_month = _months_list[0]
+    # URL 파라미터로 날짜 전달된 경우 (모바일↔PC 전환 시 날짜 유지)
+    if _url_date_str:
+        try:
+            _init_d = datetime.strptime(_url_date_str, "%Y%m%d").date()
+            st.session_state.dp_month = (_init_d.year, _init_d.month)
+        except ValueError:
+            st.session_state.dp_month = _months_list[0]
+    else:
+        st.session_state.dp_month = _months_list[0]
 if st.session_state.dp_month not in _months_list:
     st.session_state.dp_month = _months_list[0]
 
 _sel_dates = sorted(_by_month[st.session_state.dp_month], reverse=True)
 
 # ─────────────────────────────────────────────
-# 모바일 버전 바로가기 버튼
+# (모바일 버전 바로가기 버튼은 헤더로 이동)
 # ─────────────────────────────────────────────
-st.markdown("""
-<div style="
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 10px;
-">
-  <a href="https://sri.pplx.app/" target="_blank" rel="noopener noreferrer" style="
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: #1C2B40;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 7px 16px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.3px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  ">
-    <span style="font-size:1rem;">📱</span> 모바일로 보기
-  </a>
-</div>
-""", unsafe_allow_html=True)
 
 st.markdown("""
 <style>
@@ -1110,12 +1144,22 @@ for i, ym in enumerate(_months_list):
             st.rerun()
 
 # ── 2행: 날짜 칩 (선택된 월)
+# URL 날짜 파라미터로 초기 선택 index 결정 (뷰 전환 시 날짜 유지)
+_radio_idx = 0
+if _url_date_str:
+    try:
+        _url_d = datetime.strptime(_url_date_str, "%Y%m%d").date()
+        if _url_d in _sel_dates:
+            _radio_idx = _sel_dates.index(_url_d)
+    except ValueError:
+        pass
+
 selected_date = st.radio(
     "날짜 선택",
     options=_sel_dates,
     format_func=lambda d: f"{'★ ' if d == _today else ''}{d.month}/{d.day}({_DAY_KO[d.weekday()]})",
     horizontal=True,
-    index=0,
+    index=_radio_idx,
     key=f"dp_d_{st.session_state.dp_month[0]}_{st.session_state.dp_month[1]}",
     label_visibility="collapsed",
 )
@@ -1293,7 +1337,9 @@ st.markdown(f"""
       <div class="header-main">중동전쟁에 따른 민생경제 대응 모니터링</div>
       <div class="header-date-line">{date_ko}</div>
     </div>
-    <div class="header-right"></div>
+    <div class="header-right">
+      {'<a href="?view=desktop&date=' + ds(selected_date) + '" class="mobile-toggle-btn active">🖥 PC 뷰</a>' if _mobile_view else '<a href="?view=mobile&date=' + ds(selected_date) + '" class="mobile-toggle-btn">📱 모바일 뷰</a>'}
+    </div>
   </div>
 </div>
 <div class="metrics-strip-outer"><div class="metrics-strip">
@@ -1324,7 +1370,7 @@ st.markdown(f"""
 # ═══════════════════════════════════════════════════════════
 # 메인 컨텐츠 래퍼
 # ═══════════════════════════════════════════════════════════
-st.markdown('<div class="page-wrap">', unsafe_allow_html=True)
+st.markdown(f'<div class="page-wrap{"  mobile-mode" if _mobile_view else ""}">', unsafe_allow_html=True)
 
 
 # ═══════════════════════════════════════════════════════════
