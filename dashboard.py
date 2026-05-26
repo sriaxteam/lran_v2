@@ -739,13 +739,13 @@ a.yt-title:hover { color: #1C2B40; text-decoration: underline; }
   padding: 6px 14px; border-radius: 20px;
   font-size: 0.73rem; font-weight: 700;
   text-decoration: none; cursor: pointer;
-  border: 2px solid #5B9BD5;
-  color: #FFFFFF; background: #2563A8;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+  border: 2px solid rgba(255,255,255,0.6);
+  color: #1C2B40; background: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
   transition: background 0.2s, box-shadow 0.2s;
 }
-.mobile-toggle-btn:hover { background: #1A56DB; box-shadow: 0 3px 12px rgba(0,0,0,0.45); }
-.mobile-toggle-btn.active { background: #0F3460; border-color: #93C5FD; }
+.mobile-toggle-btn:hover { background: #EFF6FF; box-shadow: 0 3px 12px rgba(0,0,0,0.35); }
+.mobile-toggle-btn.active { background: #FFFFFF; color: #1A56DB; border-color: #FFFFFF; }
 
 /* ── 모바일 뷰 오버라이드 ── */
 .mobile-mode .block-container {
@@ -1339,7 +1339,7 @@ st.markdown(f"""
       <div class="header-date-line">{date_ko}</div>
     </div>
     <div class="header-right">
-      {'<a href="?view=desktop&date=' + ds(selected_date) + '" class="mobile-toggle-btn active">🖥 PC 뷰</a>' if _mobile_view else '<a href="?view=mobile&date=' + ds(selected_date) + '" class="mobile-toggle-btn">📱 모바일 뷰</a>'}
+      {'<a href="?view=desktop&date=' + ds(selected_date) + '" class="mobile-toggle-btn active">🖥 PC 보기</a>' if _mobile_view else '<a href="?view=mobile&date=' + ds(selected_date) + '" class="mobile-toggle-btn">📱 모바일 보기</a>'}
     </div>
   </div>
 </div>
