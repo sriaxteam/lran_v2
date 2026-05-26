@@ -735,16 +735,17 @@ a.yt-title:hover { color: #1C2B40; text-decoration: underline; }
 
 /* ── 모바일 토글 버튼 ── */
 .mobile-toggle-btn {
-  display: inline-flex; align-items: center; gap: 5px;
-  padding: 5px 13px; border-radius: 20px;
-  font-size: 0.72rem; font-weight: 700;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 14px; border-radius: 20px;
+  font-size: 0.73rem; font-weight: 700;
   text-decoration: none; cursor: pointer;
-  border: 1.5px solid rgba(255,255,255,0.35);
-  color: #FFFFFF; background: rgba(255,255,255,0.12);
-  transition: background 0.2s;
+  border: 2px solid #5B9BD5;
+  color: #FFFFFF; background: #2563A8;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+  transition: background 0.2s, box-shadow 0.2s;
 }
-.mobile-toggle-btn:hover { background: rgba(255,255,255,0.25); }
-.mobile-toggle-btn.active { background: #1A56DB; border-color: #1A56DB; }
+.mobile-toggle-btn:hover { background: #1A56DB; box-shadow: 0 3px 12px rgba(0,0,0,0.45); }
+.mobile-toggle-btn.active { background: #0F3460; border-color: #93C5FD; }
 
 /* ── 모바일 뷰 오버라이드 ── */
 .mobile-mode .block-container {
